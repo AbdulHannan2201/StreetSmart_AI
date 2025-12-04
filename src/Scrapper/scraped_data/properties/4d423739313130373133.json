@@ -1,0 +1,201 @@
+{
+    "property_id": "4d423739313130373133",
+    "property_name": null,
+    "url": "https://www.magicbricks.com/propertyDetails/3-BHK-1827-Sq-ft-Multistorey-Apartment-FOR-Rent-Sector-121-in-Noida&id=4d423739313130373133",
+    "bhk": "3 BHK",
+    "price": "50 Lac",
+    "locality": null,
+    "address": null,
+    "image_urls": [
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/13/Photo_h300_w450/67472925_11_PropertyImage244-91067502045917_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/24/Photo_h300_w450/82263207_2_1763981306312-1938_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/May/01/Photo_h300_w450/79110713_2_PropertyImage598-7021228144287_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/May/01/Photo_h300_w450/79110713_3_PropertyImage623-813716260786_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jan/12/Photo_h300_w450/20981276_5_edroom3_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jul/19/Photo_h300_w450/80543585_5_IMG9929_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/May/01/Photo_h300_w450/79110713_11_PropertyImage252-37614825000477_300_450.jpg",
+        "https://img.staticmb.com/mbimages/topagent/Profile-2-10529843_200_200.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/13/Photo_h300_w450/75127923_11_PropertyImage696-340986143708_300_450.jpg",
+        "https://img.staticmb.com/mbimages/project/Photo_h100_w150/2019/08/13/Project-Photo-86-Cleo-County-Noida-5019020_345_1366_100_150.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/28/Photo_h300_w450/82251785_1_PropertyImage1764211652136_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Aug/16/Photo_h300_w450/20458422_6_hatsAppImage20250816at1.31.37PM_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/12/Photo_h300_w450/82129687_10_PropertyImage329-79067194013277_300_450.jpg"
+    ],
+    "local_images": [
+        "scraped_data/images/4d423739313130373133/67472925_11_PropertyImage244-91067502045917_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/82263207_2_1763981306312-1938_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/79110713_2_PropertyImage598-7021228144287_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/79110713_3_PropertyImage623-813716260786_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/20981276_5_edroom3_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/80543585_5_IMG9929_300_450.jpeg",
+        "scraped_data/images/4d423739313130373133/79110713_11_PropertyImage252-37614825000477_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/Profile-2-10529843_200_200.jpg",
+        "scraped_data/images/4d423739313130373133/75127923_11_PropertyImage696-340986143708_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/Project-Photo-86-Cleo-County-Noida-5019020_345_1366_100_150.jpg",
+        "scraped_data/images/4d423739313130373133/82251785_1_PropertyImage1764211652136_300_450.jpg",
+        "scraped_data/images/4d423739313130373133/20458422_6_hatsAppImage20250816at1.31.37PM_300_450.jpeg",
+        "scraped_data/images/4d423739313130373133/82129687_10_PropertyImage329-79067194013277_300_450.jpg"
+    ],
+    "youtube_video": null,
+    "basic_details": {
+        "configuration": null,
+        "rent": null,
+        "super_builtup_area": null,
+        "carpet_area": null,
+        "furnishing": null,
+        "available_for": null,
+        "available_from": null,
+        "posted_by": null
+    },
+    "features": {
+        "property": [],
+        "society": []
+    },
+    "nearby_places": [],
+    "reviews": [],
+    "scraped_at": "2025-12-04T12:28:10.110312",
+    "meta_data": {
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Monthly Rent - 63,000 ✓ 1827 Sq-ft  - 3bhk park corner facing prime location 3 side open flat  center noida property"
+    },
+    "structured_data": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Magicbricks Realty Services Limited",
+            "url": "https://www.magicbricks.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn.staticmb.com/mbimages/appimages/mailers/mb-logo-web.webp",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/magicbricks",
+                "https://www.twitter.com/magicbricks",
+                "https://www.youtube.com/user/magicbricksvideo",
+                "https://www.linkedin.com/company/magicbricks/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Magicbricks Realty Services Limited (magicbricks.com), Times Centre (Digital Content Production Facility),FC - 6, (Third Floor), Sector 16 A, Film City",
+                "addressLocality": "Noida",
+                "addressRegion": "India",
+                "postalCode": "201301"
+            },
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+91 120-6866600",
+                    "contactType": "Customer Service",
+                    "areaServed": "India"
+                }
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "type": "Apartment",
+            "name": "3 BHK Multistorey Apartment  1827 ",
+            "description": "3 Bath, , Furnished, 19 floor, North - East facing",
+            "url": "https://www.magicbricks.com/propertyDetails/3-BHK-1827-Sq-ft-Multistorey-Apartment-FOR-Rent-Sector-121-in-Noida&id=4d423739313130373133",
+            "numberOfRooms": "3",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Sector 121",
+                "addressRegion": "Noida",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "IN"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "longitude": "77.39038026799517",
+                "latitude": "28.597831340561683"
+            },
+            "floorSize": {
+                "@type": "QuantitativeValue",
+                "name": "1827 FTK"
+            }
+        }
+    ],
+    "dynamic_facts": {
+        "Rent": "₹63,000",
+        "Monthly Charges": "₹63,000",
+        "First Month Charges": "Monthly Charges₹63,000",
+        "Security Deposit": "₹1.2 Lac",
+        "Brokerage (30 days)": "₹63,000",
+        "Total First Month Amount": "₹2,46,000",
+        "Sector 121, Noida": "View on map",
+        "Carpet Area": "1182sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹53/sqft",
+        "Project": "ABA Cleo County",
+        "Floor": "19(Out of 28 Floors)",
+        "Status": "Immediately",
+        "Facing": "North - East",
+        "Lifts": "2",
+        "Furnished Status": "Furnished",
+        "Car parking": "1 Covered",
+        "Age Of Construction": "New Construction",
+        "More Details": "Rental Value₹63,000 |₹3Per sq. Unit Monthly MaintenanceSecurity Deposit₹1.2 LacAddressSector 121, Noida, Sector 121, Noida - Central Noida, Delhi NCRLandmarksvikas margFurnishingFurnishedFlooringVitrified, WoodenOverlookingPool, Garden/ParkAge of ConstructionNew ConstructionAdditional RoomsPuja RoomWater Availability24 Hours AvailableStatus of ElectricityNo/Rare PowercutFloors allowed for construction20Lift2Description:3bhk park corner facing prime location 3 side open flat  center noida propertyIf you are searching a 3 BHK apartment for rent in Sector 121, check out this amazing rental f...Read more3bhk park corner facing prime location 3 side open flat  center noida propertyIf you are searching a 3 BHK apartment for rent in Sector 121, check out this amazing rental flat. Available at a rental price of ₹63,000, this 3 BHK flat is worth considering. The flat comes with some add-on facilities such as 3 AC and 3 Wardrobe. The flat is located near vikas marg. Located on the 19 floor, the flat has 3 bathrooms, 3 balcony in carpet area of 1182 sqft. The property includes 1 Covered parking. The property consists of 28 floor and offers Kids Play Pool With Water Slides conveniences. This unit is designed with power back up, reserved parking, security. Visit the apartment at Sector 121,Noida.Read lessContact Agent",
+        "Rental Value": "₹63,000 |₹3Per sq. Unit Monthly Maintenance",
+        "Address": "Sector 121, Noida, Sector 121, Noida - Central Noida, Delhi NCR",
+        "Landmarks": "vikas marg",
+        "Furnishing": "Furnished",
+        "Flooring": "Vitrified, Wooden",
+        "Overlooking": "Pool, Garden/Park",
+        "Age of Construction": "New Construction",
+        "Additional Rooms": "Puja Room",
+        "Water Availability": "24 Hours Available",
+        "Status of Electricity": "No/Rare Powercut",
+        "Floors allowed for construction": "20",
+        "Lift": "2",
+        "Description:": "3bhk park corner facing prime location 3 side open flat  center noida propertyIf you are searching a 3 BHK apartment for rent in Sector 121, check out this amazing rental f...Read more",
+        "About ProjectExplore Project": "ABA Cleo County4.525 ReviewsPrice₹2.48 Cr-₹4.80 CrCheck Market Price of3 BHK4 BHKPowered byPropWorthPrice per sqft₹1,234-₹12.0 CrConfiguration3, 4 BHK FlatsTower & Unit2 Towers,2332 UnitsDownload BrochureCompare Projects",
+        "About Project": "Explore Project",
+        "Price": "₹2.48 Cr-₹4.80 Cr",
+        "Check Market Price of": "3 BHK4 BHK",
+        "Price per sqft": "₹1,234-₹12.0 Cr",
+        "Configuration": "3, 4 BHK Flats",
+        "Tower & Unit": "2 Towers,2332 Units",
+        "Amenities": "Power Back UpLiftRain Water HarvestingClub HouseSwimming PoolGymnasiumParkReserved ParkingSecurityWater StoragePrivate Terrace/GardenVaastu CompliantService/Goods LiftAir ConditionedVisitor ParkingIntercom FacilityMaintenance StaffWaste DisposalLaundry ServiceInternet/Wi-Fi ConnectivityDTH Television FacilityRO Water SystemBanquet HallBar/LoungeCafeteria/Food CourtConference RoomPiped GasJogging and Strolling TrackOutdoor Tennis CourtsDowntownSkyline ViewWrap Around BalconyIsland Kitchen LayoutFull Glass WallHouse help accommodationConcierge ServicesHelipadPrivate poolPrivate jaccuziGolf CourseSea facingSkydeckTheme based ArchitecturesHealth club with Steam / JaccuziFingerprint AccessPrivate GarageFireplaceWine CellarSky VillaWater FrontHilltopSmart HomeAEROBICS ROOMEvent Space & AmphitheatreIndoor Squash & Badminton CourtsKids Play Pool With Water SlidesLibrary And Business CentreMeditation AreaMultipurpose CourtsOutdoor Tennis CourtsCycling & Jogging TrackFire Fighting EquipmentView all Amenities(62)Download Brochure",
+        "About Sector 121Explore Locality": "3.849 ReviewsRank 26out of 716 localitiesEnvironment3.7Neighbourhood3.7Roads3.8Safety3.6Cleanliness3.8Commuting4Public Transport4Parking3.8Connectivity4.4Traffic3.9Places of Interest3.6Schools3.8Hospitals3.6Restaurants3.5Markets3.5Educational InstitutesNoida International Public SchoolNearby LocalitiesSector 119, NoidaBlock A Sector 68, NoidaSector 121 is primarily a developing residential sector placed conveniently along the Vikas Marg. The sector is enclosed by Sector 70, 68, 122, and Village Chaukhandi. Cleo County and Ajnara Homes 121, are two notable high-rise ap...Read moreCompare Localities",
+        "About Sector 121": "Explore Locality",
+        "Landmarks Near ABA Cleo County": "Educational InstituteNoida International Public School(0.6 Km)",
+        "Popular Landmarks Nearby": "Explore nearby Landmarks on map",
+        "Contact Agent": "Deepak Saxena+91-84XXXXXXXX",
+        "Owner Properties Available Only on MB": "12+3 BHK Flat₹60,0001750 sqftSector 137, Noida Express Way, NoidaImmediately AvailableContact Owner7+3 BHK Flat₹67,0001911 sqftSector 93, Noida Express Way, NoidaImmediately AvailableContact Owner17+3 BHK Flat₹60,0001750 sqftSector 152, Noida Express Way, NoidaImmediately AvailableContact Owner7+3 BHK Flat₹60,0001860 sqftSector 100, NoidaImmediately AvailableContact Owner",
+        "Verified on Magicbricks": "Verified on Site12+3 BHK Flat₹65,0002250 sqftATS Greens VillageSector 93A, Noida Express Way, NoidaContact AgentVerified on Site13+3 BHK Flat₹65,0001827 sqftABA Cleo CountySector 121, NoidaContact AgentVerified on Site10+3 BHK Flat₹65,0001827 sqftABA Cleo CountySector 121, NoidaContact AgentVerified on Site13+3 BHK Flat₹68,5002105 sqftSupertech SupernovaSector 94, Noida Express Way, NoidaContact Agent",
+        "Price Trends in Cleo County": "Other projects in Sector 121 -  Price Trends for Nov'25Project NameAvg Rate per sqftRental YieldThis Project₹18712Highest2.33 %Locality Average₹179292.45 %The Aranya₹61983.46 %RG Residency₹96662.52 %Unitech Unihomes 2₹5908Lowest-Saya Zion₹98622.12 %",
+        "Noida": "Sat, Dec 06th202509:00 AM onwards",
+        "Tools to Help You Decide Better": "EMI CalculatorKnow how much you'll have to pay every month on your loanRead moreBest Home Loan OffersGet the best bank offers curated just for your profileRead moreInteriors Budget EstimatorKnow the cost of getting your full/partial home interiors doneRead moreProperty ValuationKnow the right value for your Property before you Buy or Sell.Read moreRates & TrendsKnow all about Property Rates & Trends in your cityRead moreResearch InsightsGet experts insights and research reports on real estateRead more",
+        "Closer to Your Search": "Similar Searches3 BHK Flats for rent in Noida3 BHK House for rent in Noida3 BHK Villa for rent in NoidaFlats near Sector 121Flats for rent in Sector 121 NoidaFlats for rent in Sector 76 NoidaFlats for rent in Sector 78 NoidaFlats for rent in Sector 70 NoidaFlats for rent in Block E Sector 61 NoidaFlats for rent in Sector 119 NoidaFlats for rent in Sector 37 NoidaFlats for rent in Sector 45 NoidaFlats for rent in Sector 93B NoidaFlats for rent in Sector 100 Noida2 BHK Flats near Sector 1212 BHK Flats for rent in Sector 76 Noida2 BHK Flats for rent in Sector 78 Noida2 BHK Flats for rent in Sector 70 Noida2 BHK Flats for rent in Sector 119 Noida2 BHK Flats for rent in Sector 45 Noida2 BHK Flats for rent in Sector 93B Noida2 BHK Flats for rent in Sector 100 Noida4 BHK Flats near Sector 1214 BHK Flats for rent in Sector 121 Noida4 BHK Flats for rent in Sector 76 Noida4 BHK Flats for rent in Sector 78 Noida4 BHK Flats for rent in Sector 70 Noida4 BHK Flats for rent in Noida Extension4 BHK Flats for rent in Sector 77 Noida4 BHK Flats for rent in Sector 50 Noida4 BHK Flats for rent in Sector 45 Noida4 BHK Flats for rent in Sector 93B Noida4 BHK Flats for rent in Sector 100 Noida5 BHK Flats near Sector 1215 BHK Flats for rent in Sector 107 NoidaProperty in Sector 121Property for rent in Sector 121 NoidaNew Projects in Sector 121Property in NoidaFlats for rent in NoidaHouse for rent in NoidaVilla for rent in NoidaProperty for rent in NoidaNew Projects in NoidaNew Launched ProjectsABA Cleo GoldABA Corp Cleo County Bleu CasaABA Cleo CountyPopular ProjectsABA Cleo CountyAGC Realty Homes 121ABA Corp Cleo County Bleu CasaABA Cleo GoldNearby ProjectsAGC Realty Homes 121ABA Corp Cleo County Bleu CasaABA Cleo GoldFlorence ApartmentAmrapali Eden ParkAmrapali ExoticaAssotech Windsor GreenAssotech Windsor CourtSky Dreams Phase 2Salora ViharTop Localities in NoidaFlats for rent in Sector 62Flats for rent in Sector 135Flats for rent in Noida ExtensionFlats for rent in Sector 137Flats for rent in Sector 15Flats for rent in Sector 52Flats for rent in Sector 50Budget SearchesFlats for rent in Sector 121 under 1 LakhsFlats for rent in Sector 121 under 30,000Flats for rent in Sector 121 under 35,000Flats for rent in Sector 121 under 50,000Flats for rent in Sector 121 under 70,000Pre-Launch Projects in NoidaATS Codename Hotcake 150Capital Hometech HomesSobha Sector 10 Greater Noida WestSobha Sector 44 NoidaVVIP SkywalkATS VertisView more",
+        "Similar Searches": "3 BHK Flats for rent in Noida3 BHK House for rent in Noida3 BHK Villa for rent in Noida",
+        "Flats near Sector 121": "Flats for rent in Sector 121 NoidaFlats for rent in Sector 76 NoidaFlats for rent in Sector 78 NoidaFlats for rent in Sector 70 NoidaFlats for rent in Block E Sector 61 NoidaFlats for rent in Sector 119 NoidaFlats for rent in Sector 37 NoidaFlats for rent in Sector 45 NoidaFlats for rent in Sector 93B NoidaFlats for rent in Sector 100 Noida",
+        "2 BHK Flats near Sector 121": "2 BHK Flats for rent in Sector 76 Noida2 BHK Flats for rent in Sector 78 Noida2 BHK Flats for rent in Sector 70 Noida2 BHK Flats for rent in Sector 119 Noida2 BHK Flats for rent in Sector 45 Noida2 BHK Flats for rent in Sector 93B Noida2 BHK Flats for rent in Sector 100 Noida",
+        "4 BHK Flats near Sector 121": "4 BHK Flats for rent in Sector 121 Noida4 BHK Flats for rent in Sector 76 Noida4 BHK Flats for rent in Sector 78 Noida4 BHK Flats for rent in Sector 70 Noida4 BHK Flats for rent in Noida Extension4 BHK Flats for rent in Sector 77 Noida4 BHK Flats for rent in Sector 50 Noida4 BHK Flats for rent in Sector 45 Noida4 BHK Flats for rent in Sector 93B Noida4 BHK Flats for rent in Sector 100 Noida",
+        "5 BHK Flats near Sector 121": "5 BHK Flats for rent in Sector 107 Noida",
+        "Property in Sector 121": "Property for rent in Sector 121 NoidaNew Projects in Sector 121",
+        "Property in Noida": "Flats for rent in NoidaHouse for rent in NoidaVilla for rent in NoidaProperty for rent in NoidaNew Projects in Noida",
+        "New Launched Projects": "ABA Cleo GoldABA Corp Cleo County Bleu CasaABA Cleo County",
+        "Popular Projects": "ABA Cleo CountyAGC Realty Homes 121ABA Corp Cleo County Bleu CasaABA Cleo Gold",
+        "Nearby Projects": "AGC Realty Homes 121ABA Corp Cleo County Bleu CasaABA Cleo GoldFlorence ApartmentAmrapali Eden ParkAmrapali ExoticaAssotech Windsor GreenAssotech Windsor CourtSky Dreams Phase 2Salora Vihar",
+        "Top Localities in Noida": "Flats for rent in Sector 62Flats for rent in Sector 135Flats for rent in Noida ExtensionFlats for rent in Sector 137Flats for rent in Sector 15Flats for rent in Sector 52Flats for rent in Sector 50",
+        "Budget Searches": "Flats for rent in Sector 121 under 1 LakhsFlats for rent in Sector 121 under 30,000Flats for rent in Sector 121 under 35,000Flats for rent in Sector 121 under 50,000Flats for rent in Sector 121 under 70,000",
+        "Pre-Launch Projects in Noida": "ATS Codename Hotcake 150Capital Hometech HomesSobha Sector 10 Greater Noida WestSobha Sector 44 NoidaVVIP SkywalkATS Vertis",
+        "Agent Details": "CRISIL RatingDeepak Saxena2500+ Buyers ServedNext HomeContact AgentOperating InNA, Noida, Delhi NCR, IndiaOperating Since2000Properties for Sale43Properties for Rent7",
+        "Operating In": "NA, Noida, Delhi NCR, India",
+        "Operating Since": "2000",
+        "Properties for Sale": "43",
+        "Properties for Rent": "7",
+        "Disclaimer:": "Magicbricks has endeavoured to ascertain the requirement of RERA registration. However, the advertiser claims that there is no requirement for such registration. Users are cautioned accordingly...Read more",
+        "About Magicbricks": "As the largest platform connecting property buyers and sellers, Magicbricks boasts over 2 crore monthly visitors and 15 lakh active property listings. With over 17 years of experience, Magicbricks has evolved into a comprehensive service provider, offering home loans, interiors and expert advice.Magicbricks also offers extensive research-based knowledge and insight-driven platforms like MBTV, India's leading online real estate YouTube channel, along with proprietary tools providing home buyers with price trends, forecasts and locality reviews.",
+        "Properties in India": "Property in New DelhiProperty in MumbaiProperty in ChennaiProperty in PuneProperty in NoidaProperty in GurgaonProperty in BangaloreProperty in Ahmedabad",
+        "New Projects in India": "New Projects in New DelhiNew Projects in MumbaiNew Projects in ChennaiNew Projects in PuneNew Projects in NoidaNew Projects in GurgaonNew Projects in BangaloreNew Projects in AhmedabadMagicHomes",
+        "Property Services": "Home LoanHome Interior",
+        "Society": "ABA Cleo County",
+        "Bathrooms": "3",
+        "Balcony": "3"
+    },
+    "description": "Monthly Rent - 63,000 ✓ 1827 Sq-ft  - 3bhk park corner facing prime location 3 side open flat  center noida property",
+    "area": "1182sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹53/sqft"
+}

@@ -1,0 +1,197 @@
+{
+    "property_id": "4d423830363830323635",
+    "property_name": null,
+    "url": "https://www.magicbricks.com/propertyDetails/4-BHK-3000-Sq-ft-Multistorey-Apartment-FOR-Rent-Sector-45-in-Noida&id=4d423830363830323635",
+    "bhk": "4 BHK",
+    "price": "50 Lac",
+    "locality": null,
+    "address": null,
+    "image_urls": [
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/15/Photo_h300_w450/70666257_4_PropertyImage967-2226626544613_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2018/Feb/07/Photo_h300_w450/30583223_1_PropertyImage01518008412153_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/01/Photo_h300_w450/81908439_14_House-second-floor-lobby-bed-room_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jul/28/Photo_h300_w450/80680265_1_axresdefault_300_450.jpg",
+        "https://img.staticmb.com/mbimages/project/Photo_h100_w150/2024/12/03/Project-Photo-42-Prateek-Stylome-Noida-5019510_900_2000_100_150.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/09/Photo_h300_w450/81234571_9_PropertyImage791-0136833419037_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/17/Photo_h300_w450/75379953_4_PropertyImage237-44676380481567_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/30/Photo_h300_w450/82372743_1_mage5_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jul/28/Photo_h300_w450/80680265_11_ylonecubg5_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/25/Photo_h300_w450/77029669_13_PropertyImage600-4300621707004_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jul/28/Photo_h300_w450/80680265_3_077_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/07/Photo_h300_w450/18183256_1_PropertyImage1762480741111_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jul/28/Photo_h300_w450/80680265_2_ownloadCopy_300_450.jpg"
+    ],
+    "local_images": [
+        "scraped_data/images/4d423830363830323635/70666257_4_PropertyImage967-2226626544613_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/30583223_1_PropertyImage01518008412153_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/81908439_14_House-second-floor-lobby-bed-room_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/80680265_1_axresdefault_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/Project-Photo-42-Prateek-Stylome-Noida-5019510_900_2000_100_150.jpg",
+        "scraped_data/images/4d423830363830323635/81234571_9_PropertyImage791-0136833419037_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/75379953_4_PropertyImage237-44676380481567_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/82372743_1_mage5_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/80680265_11_ylonecubg5_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/77029669_13_PropertyImage600-4300621707004_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/80680265_3_077_300_450.jpeg",
+        "scraped_data/images/4d423830363830323635/18183256_1_PropertyImage1762480741111_300_450.jpg",
+        "scraped_data/images/4d423830363830323635/80680265_2_ownloadCopy_300_450.jpg"
+    ],
+    "youtube_video": null,
+    "basic_details": {
+        "configuration": null,
+        "rent": null,
+        "super_builtup_area": null,
+        "carpet_area": null,
+        "furnishing": null,
+        "available_for": null,
+        "available_from": null,
+        "posted_by": null
+    },
+    "features": {
+        "property": [],
+        "society": []
+    },
+    "nearby_places": [],
+    "reviews": [],
+    "scraped_at": "2025-12-04T12:32:02.728342",
+    "meta_data": {
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Monthly Rent - 90,000 ✓ 3000 Sq-ft  - Prateek Stylome in Sector 45, Noida is a readytomove housing society"
+    },
+    "structured_data": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Magicbricks Realty Services Limited",
+            "url": "https://www.magicbricks.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn.staticmb.com/mbimages/appimages/mailers/mb-logo-web.webp",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/magicbricks",
+                "https://www.twitter.com/magicbricks",
+                "https://www.youtube.com/user/magicbricksvideo",
+                "https://www.linkedin.com/company/magicbricks/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Magicbricks Realty Services Limited (magicbricks.com), Times Centre (Digital Content Production Facility),FC - 6, (Third Floor), Sector 16 A, Film City",
+                "addressLocality": "Noida",
+                "addressRegion": "India",
+                "postalCode": "201301"
+            },
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+91 120-6866600",
+                    "contactType": "Customer Service",
+                    "areaServed": "India"
+                }
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "type": "Apartment",
+            "name": "4 BHK Multistorey Apartment  3000 ",
+            "description": "3 Bath, , Semi-Furnished, 10 floor, North - West facing",
+            "url": "https://www.magicbricks.com/propertyDetails/4-BHK-3000-Sq-ft-Multistorey-Apartment-FOR-Rent-Sector-45-in-Noida&id=4d423830363830323635",
+            "numberOfRooms": "4",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Sector 45",
+                "addressRegion": "Noida",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "IN"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "longitude": "77.3516",
+                "latitude": "28.5510984"
+            },
+            "floorSize": {
+                "@type": "QuantitativeValue",
+                "name": "3000 FTK"
+            }
+        }
+    ],
+    "dynamic_facts": {
+        "Rent": "₹90,000",
+        "Monthly Charges": "₹90,000",
+        "First Month Charges": "Monthly Charges₹90,000",
+        "Security Deposit": "₹90, 000",
+        "Brokerage (30 days)": "₹90,000",
+        "Total First Month Amount": "₹2,70,000",
+        "Sector 45, Noida": "View on map",
+        "Super Built-up Area": "3000sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹30/sqft",
+        "Developer": "Prateek Group",
+        "Project": "Prateek Stylome",
+        "Floor": "10(Out of 18 Floors)",
+        "Status": "Immediately",
+        "Additional Rooms": "Servant Room",
+        "Facing": "North - West",
+        "Lifts": "3",
+        "Furnished Status": "Semi-Furnished",
+        "More Details": "Rental Value₹90,000 |₹3Per sq. Unit Monthly MaintenanceSecurity Deposit₹90, 000AddressGH-04B, Sadarpur, Sector-45, Noida, Uttar Pradesh., Sector 45, Noida - Noida Expressway, Delhi NCRLandmarksVidyawati National school, NEW CARE HOSPITAL, Indira Gandhi AirportFurnishingSemi-FurnishedFlooringVitrifiedOverlookingGarden/ParkAge of Construction10 to 15 yearsAdditional RoomsServant RoomWater Availability24 Hours AvailableStatus of ElectricityNo/Rare PowercutFloors allowed for construction1Lift3Description:Prateek Stylome in Sector 45, Noida is a readytomove housing society. It offers apartments and independent floors in varied budget range. These units are a perfect combination of c...Read morePrateek Stylome in Sector 45, Noida is a readytomove housing society. It offers apartments and independent floors in varied budget range. These units are a perfect combination of comfort and style, specifically designed to suit your requirements and conveniences. There are 3BHK, 4BHK, 5BHK and 6BHK Apartments and 3BHK independent floors available in this project. This housing society is now ready to be called home as families have started moving in. Check out some of the features of Prateek Stylome housing societyRead lessContact Agent",
+        "Rental Value": "₹90,000 |₹3Per sq. Unit Monthly Maintenance",
+        "Address": "GH-04B, Sadarpur, Sector-45, Noida, Uttar Pradesh., Sector 45, Noida - Noida Expressway, Delhi NCR",
+        "Landmarks": "Vidyawati National school, NEW CARE HOSPITAL, Indira Gandhi Airport",
+        "Furnishing": "Semi-Furnished",
+        "Flooring": "Vitrified",
+        "Overlooking": "Garden/Park",
+        "Age of Construction": "10 to 15 years",
+        "Water Availability": "24 Hours Available",
+        "Status of Electricity": "No/Rare Powercut",
+        "Floors allowed for construction": "1",
+        "Lift": "3",
+        "Description:": "Prateek Stylome in Sector 45, Noida is a readytomove housing society. It offers apartments and independent floors in varied budget range. These units are a perfect combination of c...Read more",
+        "About ProjectExplore Project": "Prateek StylomebyPrateek Group4.34 ReviewsPrice₹3.14 Cr-₹6.17 CrConfiguration3, 4, 5 BHK FlatTower & Unit8 Towers,580 UnitsDownload BrochureCompare Projects",
+        "About Project": "Explore Project",
+        "Price": "₹3.14 Cr-₹6.17 Cr",
+        "Configuration": "3, 4, 5 BHK Flat",
+        "Tower & Unit": "8 Towers,580 Units",
+        "Amenities": "Power Back UpLiftRain Water HarvestingClub HouseSwimming PoolGymnasiumParkReserved ParkingSecurityWater StorageService/Goods LiftAir ConditionedVisitor ParkingIntercom FacilityMaintenance StaffWaste DisposalLaundry ServiceInternet/Wi-Fi ConnectivityDTH Television FacilityBanquet HallCafeteria/Food CourtPiped GasJogging and Strolling TrackOutdoor Tennis CourtsBarbeque PitCoffee Lounge & RestaurantsBank & ATMDance StudioEvent Space & AmphitheatreFlower GardensGuest AccommodationIndoor Games RoomIndoor Squash & Badminton CourtsKids Play AreaKids Play Pool With Water SlidesLibrary And Business CentreMeditation AreaMultipurpose CourtsOutdoor Tennis CourtsRentable Community SpaceCycling & Jogging TrackFire Fighting EquipmentView all Amenities(42)Download Brochure",
+        "Previously Viewed Properties": "2 BHK Flat₹24,5001250 sqftPanchachuli ApartmentsSector 61, Ashok Marg, NoidaContact Agent",
+        "About Sector 45Explore Locality": "3.943 ReviewsRank 219out of 716 localitiesEnvironment3.7Neighbourhood3.5Roads3.8Safety3.8Cleanliness3.8Commuting3.9Public Transport4Parking3.9Connectivity4.1Traffic3.6Places of Interest4Schools4.1Hospitals3.9Restaurants4Markets4Educational InstitutesAmity International SchoolNearby LocalitiesSector 99, NoidaBlock H Sector 44, NoidaHospitalShanti HospitalSector 45 is a residential sector comprising a mix of high-rise apartment buildings, builder floors and a village area named as Sadarpur. The sector is surrounded by Sector 43, 44, 46, 96 and 99. It enjoys good connectivity via th...Read moreCompare Localities",
+        "About Sector 45": "Explore Locality",
+        "Landmarks Near Prateek Stylome": "Educational InstituteAmity International School(2.2 Km)HospitalShanti Hospital(0.3 Km)",
+        "Popular Landmarks Nearby": "Explore nearby Landmarks on map",
+        "Contact Agent": "ankit garg+91-99XXXXXXXX",
+        "Owner Properties Available Only on MB": "16+4 BHK  House₹85,0003000 sqftSector 50, NoidaImmediately AvailableContact Owner20+4 BHK Villa₹1 Lac3500 sqftSector 61, Ashok Marg, NoidaImmediately AvailableContact Owner20+4 BHK  House₹1 Lac3500 sqftSector 61, Ashok Marg, NoidaImmediately AvailableContact Owner13+4 BHK  House₹90,0003300 sqftBlock A Sector 43, NoidaImmediately AvailableContact Owner",
+        "Verified on Magicbricks": "Verified on Site13+4 BHK Flat₹90,0002511 sqftIvy CountySector 75, NoidaContact AgentVerified on Site12+4 BHK Flat₹85,0002259 sqftGodrej WoodsSector 43, NoidaContact AgentVerified on Site15+4 BHK Flat₹90,0004000 sqftParx LaureateSector 108, Noida Express Way, NoidaContact AgentVerified on Site17+4 BHK Flat₹85,0003400 sqftSunworld VanalikaSector 107, Dadri Road, NoidaContact Agent",
+        "Price Trends in Prateek Stylome": "Other projects in Sector 45 -  Price Trends for Nov'25Project NameAvg Rate per sqftRental YieldThis Project₹17022Highest-Locality Average₹130672.29 %Amrapali Sapphire₹11283Lowest2.4 %",
+        "Noida": "Sat, Dec 06th202509:00 AM onwards",
+        "Tools to Help You Decide Better": "EMI CalculatorKnow how much you'll have to pay every month on your loanRead moreBest Home Loan OffersGet the best bank offers curated just for your profileRead moreInteriors Budget EstimatorKnow the cost of getting your full/partial home interiors doneRead moreProperty ValuationKnow the right value for your Property before you Buy or Sell.Read moreRates & TrendsKnow all about Property Rates & Trends in your cityRead moreResearch InsightsGet experts insights and research reports on real estateRead more",
+        "Closer to Your Search": "Similar Searches4 BHK Flats for rent in Noida4 BHK House for rent in Noida4 BHK Villa for rent in NoidaFlats near Sector 45, Noida Express WayFlats for rent in Sector 45 NoidaFlats for rent in Sector 76 NoidaFlats for rent in Sector 78 NoidaFlats for rent in Sector 100 NoidaFlats for rent in F Block Sector 50 NoidaFlats for rent in Sector 99 NoidaFlats for rent in Block E Sector 61 NoidaFlats for rent in Sector 135 NoidaFlats for rent in Sector 93B NoidaFlats for rent in Sector 70 Noida3 BHK Flats near Sector 45, Noida Express Way3 BHK Flats for rent in Sector 45 Noida3 BHK Flats for rent in Sector 76 Noida3 BHK Flats for rent in Sector 78 Noida3 BHK Flats for rent in Sector 100 Noida3 BHK Flats for rent in Sector 99 Noida3 BHK Flats for rent in Block E Sector 61 Noida3 BHK Flats for rent in Sector 137 Noida3 BHK Flats for rent in Sector 93B Noida3 BHK Flats for rent in Sector 70 Noida5 BHK Flats near Sector 45, Noida Express Way5 BHK Flats for rent in Sector 107 NoidaProperty in Sector 45, Noida Express WayHouse for rent in Sector 45 NoidaProperty for rent in Sector 45 NoidaNew Projects in Sector 45Property in NoidaFlats for rent in NoidaHouse for rent in NoidaVilla for rent in NoidaProperty for rent in NoidaNew Projects in NoidaNew Launched ProjectsExperion ElementsPopular ProjectsAmrapali SapphireNRI ResidencyPrateek StylomeEast SapphireExperion ElementsNearby ProjectsNRI ResidencyPrateek StylomeAmrapali SapphireEast SapphireSapphire1AWHO Vivek ViharGaur Platinum TowersAnsal Fortune ArcadeSupertech Emerald CourtArun ViharTop Localities in NoidaFlats for rent in Sector 62Flats for rent in Noida ExtensionFlats for rent in Sector 137Flats for rent in Sector 52Flats for rent in Sector 50Budget SearchesFlats for rent in Sector 45 under 30,000Flats for rent in Sector 45 under 35,000Flats for rent in Sector 45 under 40,000Flats for rent in Sector 45 under 50,000Flats for rent in Sector 45 under 70,000Pre-Launch Projects in NoidaATS Codename Hotcake 150Capital Hometech HomesSobha Sector 10 Greater Noida WestSobha Sector 44 NoidaVVIP SkywalkATS VertisView more",
+        "Similar Searches": "4 BHK Flats for rent in Noida4 BHK House for rent in Noida4 BHK Villa for rent in Noida",
+        "Flats near Sector 45, Noida Express Way": "Flats for rent in Sector 45 NoidaFlats for rent in Sector 76 NoidaFlats for rent in Sector 78 NoidaFlats for rent in Sector 100 NoidaFlats for rent in F Block Sector 50 NoidaFlats for rent in Sector 99 NoidaFlats for rent in Block E Sector 61 NoidaFlats for rent in Sector 135 NoidaFlats for rent in Sector 93B NoidaFlats for rent in Sector 70 Noida",
+        "3 BHK Flats near Sector 45, Noida Express Way": "3 BHK Flats for rent in Sector 45 Noida3 BHK Flats for rent in Sector 76 Noida3 BHK Flats for rent in Sector 78 Noida3 BHK Flats for rent in Sector 100 Noida3 BHK Flats for rent in Sector 99 Noida3 BHK Flats for rent in Block E Sector 61 Noida3 BHK Flats for rent in Sector 137 Noida3 BHK Flats for rent in Sector 93B Noida3 BHK Flats for rent in Sector 70 Noida",
+        "5 BHK Flats near Sector 45, Noida Express Way": "5 BHK Flats for rent in Sector 107 Noida",
+        "Property in Sector 45, Noida Express Way": "House for rent in Sector 45 NoidaProperty for rent in Sector 45 NoidaNew Projects in Sector 45",
+        "Property in Noida": "Flats for rent in NoidaHouse for rent in NoidaVilla for rent in NoidaProperty for rent in NoidaNew Projects in Noida",
+        "New Launched Projects": "Experion Elements",
+        "Popular Projects": "Amrapali SapphireNRI ResidencyPrateek StylomeEast SapphireExperion Elements",
+        "Nearby Projects": "NRI ResidencyPrateek StylomeAmrapali SapphireEast SapphireSapphire1AWHO Vivek ViharGaur Platinum TowersAnsal Fortune ArcadeSupertech Emerald CourtArun Vihar",
+        "Top Localities in Noida": "Flats for rent in Sector 62Flats for rent in Noida ExtensionFlats for rent in Sector 137Flats for rent in Sector 52Flats for rent in Sector 50",
+        "Budget Searches": "Flats for rent in Sector 45 under 30,000Flats for rent in Sector 45 under 35,000Flats for rent in Sector 45 under 40,000Flats for rent in Sector 45 under 50,000Flats for rent in Sector 45 under 70,000",
+        "Pre-Launch Projects in Noida": "ATS Codename Hotcake 150Capital Hometech HomesSobha Sector 10 Greater Noida WestSobha Sector 44 NoidaVVIP SkywalkATS Vertis",
+        "Agent Details": "aankit garg100+ Buyers ServedContact AgentOperating InAddress, Mumbai, Maharashtra, IndiaProperties for Sale53Properties for Rent7",
+        "Operating In": "Address, Mumbai, Maharashtra, India",
+        "Properties for Sale": "53",
+        "Properties for Rent": "7",
+        "Disclaimer:": "Magicbricks has endeavoured to ascertain the requirement of RERA registration. However, the advertiser claims that there is no requirement for such registration. Users are cautioned accordingly...Read more",
+        "About Magicbricks": "As the largest platform connecting property buyers and sellers, Magicbricks boasts over 2 crore monthly visitors and 15 lakh active property listings. With over 17 years of experience, Magicbricks has evolved into a comprehensive service provider, offering home loans, interiors and expert advice.Magicbricks also offers extensive research-based knowledge and insight-driven platforms like MBTV, India's leading online real estate YouTube channel, along with proprietary tools providing home buyers with price trends, forecasts and locality reviews.",
+        "Properties in India": "Property in New DelhiProperty in MumbaiProperty in ChennaiProperty in PuneProperty in NoidaProperty in GurgaonProperty in BangaloreProperty in Ahmedabad",
+        "New Projects in India": "New Projects in New DelhiNew Projects in MumbaiNew Projects in ChennaiNew Projects in PuneNew Projects in NoidaNew Projects in GurgaonNew Projects in BangaloreNew Projects in AhmedabadMagicHomes",
+        "Property Services": "Home LoanHome Interior",
+        "Society": "Prateek Stylome",
+        "Bathrooms": "3",
+        "Balcony": "4"
+    },
+    "description": "Monthly Rent - 90,000 ✓ 3000 Sq-ft  - Prateek Stylome in Sector 45, Noida is a readytomove housing society",
+    "area": null
+}

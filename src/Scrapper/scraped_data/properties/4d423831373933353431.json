@@ -1,0 +1,195 @@
+{
+    "property_id": "4d423831373933353431",
+    "property_name": null,
+    "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1255-Sq-ft-Multistorey-Apartment-FOR-Rent-Sector-61-in-Noida&id=4d423831373933353431",
+    "bhk": "2 BHK",
+    "price": "50 Lac",
+    "locality": null,
+    "address": null,
+    "image_urls": [
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jul/16/Photo_h300_w450/80491109_7_466995021221544070361822764611957506459249524n_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/15/Photo_h300_w450/81793541_5_hatsAppImage20240514at1.25.08PM3_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/15/Photo_h300_w450/81793541_8_hatsAppImage20240514at1.25.08PMCopy_300_450.jpeg",
+        "https://img.staticmb.com/mbimages/project/Photo_h100_w150/Project-Photo-6-Panchachuli-Apartments-Noida-5065984_1296_972_100_150.JPEG",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/05/Photo_h300_w450/81997271_7_PropertyImage251-48603138469815_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/05/Photo_h300_w450/81786005_2_PropertyImage683-9232602431363_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/10/Photo_h300_w450/81497831_11_PropertyImage29-575056130769383_300_450.jpg",
+        "https://img.staticmb.com/mbimages/topagent/Profile-1-26608917_200_200.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/02/Photo_h300_w450/81608581_1_6c635a72b26e4a3ca14ab3e1d1cfbcc1_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/02/Photo_h300_w450/82306811_1_PropertyImage1764614338844_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/01/Photo_h300_w450/81116879_1_PropertyImage1759338063245_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/13/Photo_h300_w450/77017283_8_PropertyImage157-98259348566378_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/15/Photo_h300_w450/81793541_1_hatsAppImage20240514at1.25.08PM2_300_450.jpeg"
+    ],
+    "local_images": [
+        "scraped_data/images/4d423831373933353431/80491109_7_466995021221544070361822764611957506459249524n_300_450.jpg",
+        "scraped_data/images/4d423831373933353431/81793541_5_hatsAppImage20240514at1.25.08PM3_300_450.jpeg",
+        "scraped_data/images/4d423831373933353431/81793541_8_hatsAppImage20240514at1.25.08PMCopy_300_450.jpeg",
+        "scraped_data/images/4d423831373933353431/Project-Photo-6-Panchachuli-Apartments-Noida-5065984_1296_972_100_150.JPEG",
+        "scraped_data/images/4d423831373933353431/81997271_7_PropertyImage251-48603138469815_300_450.jpg",
+        "scraped_data/images/4d423831373933353431/81786005_2_PropertyImage683-9232602431363_300_450.jpg",
+        "scraped_data/images/4d423831373933353431/81497831_11_PropertyImage29-575056130769383_300_450.jpg",
+        "scraped_data/images/4d423831373933353431/Profile-1-26608917_200_200.jpg",
+        "scraped_data/images/4d423831373933353431/81608581_1_6c635a72b26e4a3ca14ab3e1d1cfbcc1_300_450.jpeg",
+        "scraped_data/images/4d423831373933353431/82306811_1_PropertyImage1764614338844_300_450.jpg",
+        "scraped_data/images/4d423831373933353431/81116879_1_PropertyImage1759338063245_300_450.jpg",
+        "scraped_data/images/4d423831373933353431/77017283_8_PropertyImage157-98259348566378_300_450.jpg",
+        "scraped_data/images/4d423831373933353431/81793541_1_hatsAppImage20240514at1.25.08PM2_300_450.jpeg"
+    ],
+    "youtube_video": null,
+    "basic_details": {
+        "configuration": null,
+        "rent": null,
+        "super_builtup_area": null,
+        "carpet_area": null,
+        "furnishing": null,
+        "available_for": null,
+        "available_from": null,
+        "posted_by": null
+    },
+    "features": {
+        "property": [],
+        "society": []
+    },
+    "nearby_places": [],
+    "reviews": [],
+    "scraped_at": "2025-12-04T12:31:26.770932",
+    "meta_data": {
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Monthly Rent - 24,500 ✓ 1255 Sq-ft  - excellent location complete wood work marble flooring first floor 2bhk   1bath with car parking ready to sift near to metro station sector61 noida"
+    },
+    "structured_data": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Magicbricks Realty Services Limited",
+            "url": "https://www.magicbricks.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn.staticmb.com/mbimages/appimages/mailers/mb-logo-web.webp",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/magicbricks",
+                "https://www.twitter.com/magicbricks",
+                "https://www.youtube.com/user/magicbricksvideo",
+                "https://www.linkedin.com/company/magicbricks/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Magicbricks Realty Services Limited (magicbricks.com), Times Centre (Digital Content Production Facility),FC - 6, (Third Floor), Sector 16 A, Film City",
+                "addressLocality": "Noida",
+                "addressRegion": "India",
+                "postalCode": "201301"
+            },
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+91 120-6866600",
+                    "contactType": "Customer Service",
+                    "areaServed": "India"
+                }
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "type": "Apartment",
+            "name": "2 BHK Multistorey Apartment  1255 ",
+            "description": "1 Bath, , Semi-Furnished, 1 floor, East facing",
+            "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1255-Sq-ft-Multistorey-Apartment-FOR-Rent-Sector-61-in-Noida&id=4d423831373933353431",
+            "numberOfRooms": "2",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Sector 61",
+                "addressRegion": "Noida",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "IN"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "longitude": "77.367227",
+                "latitude": "28.5964690540065"
+            },
+            "floorSize": {
+                "@type": "QuantitativeValue",
+                "name": "1255 FTK"
+            }
+        }
+    ],
+    "dynamic_facts": {
+        "Rent": "₹24,500",
+        "Monthly Maintenance": "₹3,000",
+        "Monthly Charges": "₹27,500",
+        "First Month Charges": "Monthly Charges₹27,500",
+        "Security Deposit": "₹24, 500",
+        "Brokerage (30 days)": "₹24,500",
+        "Total First Month Amount": "₹76,500",
+        "Sector 61, Noida": "View on map",
+        "Carpet Area": "1250sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹20/sqft",
+        "Developer": "Purvanchal Projects Pvt. Ltd.",
+        "Project": "Panchachuli Apartments",
+        "Floor": "1(Out of 8 Floors)",
+        "Status": "Immediately",
+        "Additional Rooms": "Store",
+        "Facing": "East",
+        "Lift": "1",
+        "Furnished Status": "Semi-Furnished",
+        "More Details": "Rental Value₹24,500 |₹3,000Monthly MaintenanceSecurity Deposit₹24, 500AddressSector 61, Noida, Uttar Pradesh, Sector 61, Noida - Central Noida, Delhi NCRLandmarksnear to life care hospitalFurnishingSemi-FurnishedFlooringMosaicOverlookingGarden/Park, Main RoadAge of Construction15 to 20 yearsAdditional RoomsStoreWater Availability24 Hours AvailableStatus of ElectricityNo/Rare PowercutFloors allowed for construction8Lift1Description:excellent location complete wood work marble flooring first floor 2bhk   1bath with car parking ready to sift near to metro station sector61 noidaGrab the chance to own thi...Read moreexcellent location complete wood work marble flooring first floor 2bhk   1bath with car parking ready to sift near to metro station sector61 noidaGrab the chance to own this affordable 2 BHK flat for rent in the Sector 61 area.  ₹24,500 is the monthly rent of this 2 BHK flat. Some premium add-on facilities bundled with the flat are 4 Wardrobe and Gas Connection. The apartment is located near near to life care hospital. The apartment is on the 1 floor, has a carpet area of 1250 sqft with 1 bathrooms and 2 balcony. 1 Open parking facility are also available. This unit is designed with reserved parking, security. Visit the flat at Sector 61, Noida, Uttar Pradesh.Read lessContact Agent",
+        "Rental Value": "₹24,500 |₹3,000Monthly Maintenance",
+        "Address": "Sector 61, Noida, Uttar Pradesh, Sector 61, Noida - Central Noida, Delhi NCR",
+        "Landmarks": "near to life care hospital",
+        "Furnishing": "Semi-Furnished",
+        "Flooring": "Mosaic",
+        "Overlooking": "Garden/Park, Main Road",
+        "Age of Construction": "15 to 20 years",
+        "Water Availability": "24 Hours Available",
+        "Status of Electricity": "No/Rare Powercut",
+        "Floors allowed for construction": "8",
+        "Description:": "excellent location complete wood work marble flooring first floor 2bhk   1bath with car parking ready to sift near to metro station sector61 noidaGrab the chance to own thi...Read more",
+        "About ProjectExplore Project": "Panchachuli ApartmentsbyPurvanchal Projects Pvt. Ltd.Price₹2.30 Cr-₹2.50 CrTower4 TowersCompare Projects",
+        "About Project": "Explore Project",
+        "Price": "₹2.30 Cr-₹2.50 Cr",
+        "Tower": "4 Towers",
+        "Amenities": "LiftRain Water HarvestingGymnasiumParkSecurityWater StorageService/Goods LiftVisitor ParkingWaste DisposalDTH Television FacilityIndoor Squash & Badminton CourtsKids Play AreaFire Fighting EquipmentView all Amenities(13)",
+        "About Sector 61Explore Locality": "460 ReviewsRank 31out of 716 localitiesEnvironment4.1Neighbourhood4.1Roads4.1Safety3.9Cleanliness4.1Commuting4.1Public Transport4.2Parking4.1Connectivity4.5Traffic3.5Places of Interest4Schools4Hospitals4Restaurants3.7Markets4.1Educational InstitutesJss Public SchoolCity Public SchoolTransportation HubsRoyal Tower Bus StopShopping CentersShopprix Mall Sector 61 NoidaNearby LocalitiesBlock C Sector 61, NoidaBlock D Sector 61, NoidaSector 61 is an established and well-equipped sector in Noida. It is bounded by Sector 60 in the north, Sector 71 in the east, and Sector 53 & 54 in the west. The sector has ample greenery in the form of designated green belts and...Read moreCompare Localities",
+        "About Sector 61": "Explore Locality",
+        "Landmarks Near Panchachuli Apartments": "Educational InstituteJss Public School(0.4 Km)City Public School(0.4 Km)Rachna International School(2.0 Km)City Public School(0.4 Km)+2 MoreTransportation HubRoyal Tower Bus Stop(0.4 Km)Shopping CentreShopprix Mall Sector 61 Noida(0.4 Km)",
+        "Popular Landmarks Nearby": "Explore nearby Landmarks on map",
+        "Contact Agent": "R M Mishra+91-99XXXXXXXX",
+        "Owner Properties Available Only on MB": "13+2 BHK Flat₹26,5001082 sqftSector 74, NoidaImmediately AvailableContact Owner14+2 BHK Flat₹25,000955 sqftPrateek Wisteria, NoidaSelect DateContact Owner11+2 BHK Flat₹25,0001100 sqftBlock B Sector 61, NoidaImmediately AvailableContact Owner11+2 BHK Flat₹22,5001370 sqftNoida Extension, NoidaImmediately AvailableContact Owner",
+        "Verified on Magicbricks": "Verified on Site9+2 BHK Flat₹25,0001130 sqft3C Lotus PanacheSector 110, Dadri Road, NoidaContact AgentVerified on Site8+2 BHK Flat₹22,500850 sqftJaypee KosmosSector 134, Noida Express Way, NoidaContact AgentVerified on Site11+2 BHK Flat₹23,0001100 sqftTata Eureka ParkSector 150, Pusta Road, NoidaContact AgentVerified on Site7+2 BHK Flat₹25,0001172 sqftPan OasisSector 70, NoidaContact Agent",
+        "Price Trends in Panchachuli Apartments": "Other projects in Sector 61 -  Price Trends for Nov'25Project NameAvg Rate per sqftRental YieldThis Project₹9069Lowest-Locality Average₹11403Highest-",
+        "Noida": "Sat, Dec 06th202509:00 AM onwards",
+        "Tools to Help You Decide Better": "EMI CalculatorKnow how much you'll have to pay every month on your loanRead moreBest Home Loan OffersGet the best bank offers curated just for your profileRead moreInteriors Budget EstimatorKnow the cost of getting your full/partial home interiors doneRead moreProperty ValuationKnow the right value for your Property before you Buy or Sell.Read moreRates & TrendsKnow all about Property Rates & Trends in your cityRead moreResearch InsightsGet experts insights and research reports on real estateRead more",
+        "Closer to Your Search": "Similar Searches2 BHK Flats for rent in Noida2 BHK House for rent in Noida2 BHK Villa for rent in NoidaFlats near Sector 61, Ashok MargFlats for rent in Sector 61 NoidaFlats for rent in Sector 76 NoidaFlats for rent in Sector 78 NoidaFlats for rent in Sector 70 NoidaFlats for rent in F Block Sector 50 NoidaFlats for rent in Block E Sector 61 NoidaFlats for rent in Sector 28 NoidaFlats for rent in Sector 45 NoidaFlats for rent in Sector 93B NoidaFlats for rent in Sector 100 Noida3 BHK Flats near Sector 61, Ashok Marg3 BHK Flats for rent in Sector 61 Noida3 BHK Flats for rent in Sector 76 Noida3 BHK Flats for rent in Sector 78 Noida3 BHK Flats for rent in Sector 70 Noida3 BHK Flats for rent in Block E Sector 61 Noida3 BHK Flats for rent in Sector 119 Noida3 BHK Flats for rent in Sector 28 Noida3 BHK Flats for rent in Sector 45 Noida3 BHK Flats for rent in Sector 93B Noida3 BHK Flats for rent in Sector 100 Noida4 BHK Flats near Sector 61, Ashok Marg4 BHK Flats for rent in Sector 76 Noida4 BHK Flats for rent in Sector 78 Noida4 BHK Flats for rent in Sector 121 Noida4 BHK Flats for rent in Sector 50 Noida4 BHK Flats for rent in Sector 45 Noida4 BHK Flats for rent in Sector 100 NoidaProperty in Sector 61, Ashok MargHouse for rent in Sector 61 NoidaProperty for rent in Sector 61 NoidaNew Projects in Sector 61Property in NoidaFlats for rent in NoidaHouse for rent in NoidaVilla for rent in NoidaProperty for rent in NoidaNew Projects in NoidaPopular ProjectsPrateek FedoraRWA Sector 61Manisha Marvel HomesNearby ProjectsPrateek FedoraGraceParsvnath GardeniaSaket DhamRoyal Garden EstatePark View Apartments NoidaManisha Marvel HomesKrishna Apra ResidencyRoyal TowerRWA Sector 61Top Localities in NoidaFlats for rent in Sector 62Flats for rent in Sector 135Flats for rent in Noida ExtensionFlats for rent in Sector 137Flats for rent in Sector 52Flats for rent in Sector 50Budget SearchesFlats for rent in Sector 61 under 30,000Flats for rent in Sector 61 under 35,000Flats for rent in Sector 61 under 40,000Flats for rent in Sector 61 under 50,000Pre-Launch Projects in NoidaATS Codename Hotcake 150Capital Hometech HomesSobha Sector 10 Greater Noida WestSobha Sector 44 NoidaVVIP SkywalkATS VertisView more",
+        "Similar Searches": "2 BHK Flats for rent in Noida2 BHK House for rent in Noida2 BHK Villa for rent in Noida",
+        "Flats near Sector 61, Ashok Marg": "Flats for rent in Sector 61 NoidaFlats for rent in Sector 76 NoidaFlats for rent in Sector 78 NoidaFlats for rent in Sector 70 NoidaFlats for rent in F Block Sector 50 NoidaFlats for rent in Block E Sector 61 NoidaFlats for rent in Sector 28 NoidaFlats for rent in Sector 45 NoidaFlats for rent in Sector 93B NoidaFlats for rent in Sector 100 Noida",
+        "3 BHK Flats near Sector 61, Ashok Marg": "3 BHK Flats for rent in Sector 61 Noida3 BHK Flats for rent in Sector 76 Noida3 BHK Flats for rent in Sector 78 Noida3 BHK Flats for rent in Sector 70 Noida3 BHK Flats for rent in Block E Sector 61 Noida3 BHK Flats for rent in Sector 119 Noida3 BHK Flats for rent in Sector 28 Noida3 BHK Flats for rent in Sector 45 Noida3 BHK Flats for rent in Sector 93B Noida3 BHK Flats for rent in Sector 100 Noida",
+        "4 BHK Flats near Sector 61, Ashok Marg": "4 BHK Flats for rent in Sector 76 Noida4 BHK Flats for rent in Sector 78 Noida4 BHK Flats for rent in Sector 121 Noida4 BHK Flats for rent in Sector 50 Noida4 BHK Flats for rent in Sector 45 Noida4 BHK Flats for rent in Sector 100 Noida",
+        "Property in Sector 61, Ashok Marg": "House for rent in Sector 61 NoidaProperty for rent in Sector 61 NoidaNew Projects in Sector 61",
+        "Property in Noida": "Flats for rent in NoidaHouse for rent in NoidaVilla for rent in NoidaProperty for rent in NoidaNew Projects in Noida",
+        "Popular Projects": "Prateek FedoraRWA Sector 61Manisha Marvel Homes",
+        "Nearby Projects": "Prateek FedoraGraceParsvnath GardeniaSaket DhamRoyal Garden EstatePark View Apartments NoidaManisha Marvel HomesKrishna Apra ResidencyRoyal TowerRWA Sector 61",
+        "Top Localities in Noida": "Flats for rent in Sector 62Flats for rent in Sector 135Flats for rent in Noida ExtensionFlats for rent in Sector 137Flats for rent in Sector 52Flats for rent in Sector 50",
+        "Budget Searches": "Flats for rent in Sector 61 under 30,000Flats for rent in Sector 61 under 35,000Flats for rent in Sector 61 under 40,000Flats for rent in Sector 61 under 50,000",
+        "Pre-Launch Projects in Noida": "ATS Codename Hotcake 150Capital Hometech HomesSobha Sector 10 Greater Noida WestSobha Sector 44 NoidaVVIP SkywalkATS Vertis",
+        "Agent Details": "CRISIL RatingR M Mishra16000+ Buyers ServedMishra PropertiesContact AgentOperating InNoida, Delhi NCR, 201301, IndiaOperating Since2014Properties for Sale32Properties for Rent18",
+        "Operating In": "Noida, Delhi NCR, 201301, India",
+        "Operating Since": "2014",
+        "Properties for Sale": "32",
+        "Properties for Rent": "18",
+        "Disclaimer:": "Magicbricks has endeavoured to ascertain the requirement of RERA registration. However, the advertiser claims that there is no requirement for such registration. Users are cautioned accordingly...Read more",
+        "About Magicbricks": "As the largest platform connecting property buyers and sellers, Magicbricks boasts over 2 crore monthly visitors and 15 lakh active property listings. With over 17 years of experience, Magicbricks has evolved into a comprehensive service provider, offering home loans, interiors and expert advice.Magicbricks also offers extensive research-based knowledge and insight-driven platforms like MBTV, India's leading online real estate YouTube channel, along with proprietary tools providing home buyers with price trends, forecasts and locality reviews.",
+        "Properties in India": "Property in New DelhiProperty in MumbaiProperty in ChennaiProperty in PuneProperty in NoidaProperty in GurgaonProperty in BangaloreProperty in Ahmedabad",
+        "New Projects in India": "New Projects in New DelhiNew Projects in MumbaiNew Projects in ChennaiNew Projects in PuneNew Projects in NoidaNew Projects in GurgaonNew Projects in BangaloreNew Projects in AhmedabadMagicHomes",
+        "Property Services": "Home LoanHome Interior",
+        "Society": "Panchachuli Apartments",
+        "Bathrooms": "1",
+        "Balcony": "2"
+    },
+    "description": "Monthly Rent - 24,500 ✓ 1255 Sq-ft  - excellent location complete wood work marble flooring first floor 2bhk   1bath with car parking ready to sift near to metro station sector61 noida",
+    "area": "1250sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹20/sqft"
+}

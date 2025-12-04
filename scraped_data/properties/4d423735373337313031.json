@@ -1,0 +1,201 @@
+{
+    "property_id": "4d423735373337313031",
+    "property_name": null,
+    "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1193-Sq-ft-Multistorey-Apartment-FOR-Rent-Noida-Extension-in-Greater-Noida&id=4d423735373337313031",
+    "bhk": "2 BHK",
+    "price": "50 Lac",
+    "locality": null,
+    "address": null,
+    "image_urls": [
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/03/Photo_h300_w450/82413337_2_PropertyImage130-93854329016418_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/28/Photo_h300_w450/82258113_5_PropertyImage21-119106363314046_300_450.jpg",
+        "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2023/09/01/Project-Photo-40-Victoryone-Amara-Greater-Noida-5070109_780_1040_310_462.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/29/Photo_h300_w450/75737101_9_hatsAppImage20240526at5.49.20PM_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/28/Photo_h300_w450/58048095_1_1761633912483-1572_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/29/Photo_h300_w450/75737101_3_hatsAppImage20240526at5.49.18PM3_300_450.jpeg",
+        "https://img.staticmb.com/mbimages/topagent/Profile-1-4320619_200_200.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/13/Photo_h300_w450/82144301_1_PropertyImage755-4411476260892_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/29/Photo_h300_w450/75737101_4_hatsAppImage20240526at5.49.19PM1_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/23/Photo_h300_w450/82212623_2_PropertyImage543-1844280718151_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/29/Photo_h300_w450/75737101_2_hatsAppImage20240526at5.49.18PM1_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/02/Photo_h300_w450/82396699_7_4F90E186982F48EFB3457F4458F1770B_300_450.jpeg",
+        "https://img.staticmb.com/mbimages/project/Photo_h100_w150/2020/07/15/Project-Photo-92-Stellar-Jeevan-Greater-Noida-5017284_345_1366_100_150.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Sep/18/Photo_h300_w450/81434103_3__300_450.jpeg"
+    ],
+    "local_images": [
+        "scraped_data/images/4d423735373337313031/82413337_2_PropertyImage130-93854329016418_300_450.jpg",
+        "scraped_data/images/4d423735373337313031/82258113_5_PropertyImage21-119106363314046_300_450.jpg",
+        "scraped_data/images/4d423735373337313031/Project-Photo-40-Victoryone-Amara-Greater-Noida-5070109_780_1040_310_462.jpg",
+        "scraped_data/images/4d423735373337313031/75737101_9_hatsAppImage20240526at5.49.20PM_300_450.jpeg",
+        "scraped_data/images/4d423735373337313031/58048095_1_1761633912483-1572_300_450.jpg",
+        "scraped_data/images/4d423735373337313031/75737101_3_hatsAppImage20240526at5.49.18PM3_300_450.jpeg",
+        "scraped_data/images/4d423735373337313031/Profile-1-4320619_200_200.jpg",
+        "scraped_data/images/4d423735373337313031/82144301_1_PropertyImage755-4411476260892_300_450.jpg",
+        "scraped_data/images/4d423735373337313031/75737101_4_hatsAppImage20240526at5.49.19PM1_300_450.jpeg",
+        "scraped_data/images/4d423735373337313031/82212623_2_PropertyImage543-1844280718151_300_450.jpg",
+        "scraped_data/images/4d423735373337313031/75737101_2_hatsAppImage20240526at5.49.18PM1_300_450.jpeg",
+        "scraped_data/images/4d423735373337313031/82396699_7_4F90E186982F48EFB3457F4458F1770B_300_450.jpeg",
+        "scraped_data/images/4d423735373337313031/Project-Photo-92-Stellar-Jeevan-Greater-Noida-5017284_345_1366_100_150.jpg",
+        "scraped_data/images/4d423735373337313031/81434103_3__300_450.jpeg"
+    ],
+    "youtube_video": null,
+    "basic_details": {
+        "configuration": null,
+        "rent": null,
+        "super_builtup_area": null,
+        "carpet_area": null,
+        "furnishing": null,
+        "available_for": null,
+        "available_from": null,
+        "posted_by": null
+    },
+    "features": {
+        "property": [],
+        "society": []
+    },
+    "nearby_places": [],
+    "reviews": [],
+    "scraped_at": "2025-12-04T12:22:51.615104",
+    "meta_data": {
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Monthly Rent - 18,000 ✓ 1193 Sq-ft  - Stellar Jeevan is a premium residential project spread over 18 acres of prime land in Sector 1, Greater Noida West"
+    },
+    "structured_data": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Magicbricks Realty Services Limited",
+            "url": "https://www.magicbricks.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn.staticmb.com/mbimages/appimages/mailers/mb-logo-web.webp",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/magicbricks",
+                "https://www.twitter.com/magicbricks",
+                "https://www.youtube.com/user/magicbricksvideo",
+                "https://www.linkedin.com/company/magicbricks/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Magicbricks Realty Services Limited (magicbricks.com), Times Centre (Digital Content Production Facility),FC - 6, (Third Floor), Sector 16 A, Film City",
+                "addressLocality": "Noida",
+                "addressRegion": "India",
+                "postalCode": "201301"
+            },
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+91 120-6866600",
+                    "contactType": "Customer Service",
+                    "areaServed": "India"
+                }
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "type": "Apartment",
+            "name": "2 BHK Multistorey Apartment  1193 ",
+            "description": "2 Bath, , Semi-Furnished, 3 floor, North - East facing",
+            "url": "https://www.magicbricks.com/propertyDetails/2-BHK-1193-Sq-ft-Multistorey-Apartment-FOR-Rent-Noida-Extension-in-Greater-Noida&id=4d423735373337313031",
+            "numberOfRooms": "2",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Noida Extension",
+                "addressRegion": "Greater Noida",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "IN"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "longitude": "77.44996312698805",
+                "latitude": "28.566471043571635"
+            },
+            "floorSize": {
+                "@type": "QuantitativeValue",
+                "name": "1193 FTK"
+            }
+        }
+    ],
+    "dynamic_facts": {
+        "Rent": "₹18,000",
+        "Monthly Maintenance": "₹3,700",
+        "Monthly Charges": "₹21,700",
+        "First Month Charges": "Monthly Charges₹21,700",
+        "Security Deposit": "₹36, 000",
+        "Brokerage (15 days)": "₹9,000",
+        "Total First Month Amount": "₹66,700",
+        "Noida Extension, Greater Noida": "View on map",
+        "Carpet Area": "894sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹20/sqft",
+        "Developer": "Stellar Spring Projects Pvt Ltd",
+        "Project": "Stellar Jeevan",
+        "Floor": "3(Out of 3 Floors)",
+        "Status": "Immediately",
+        "Additional Rooms": "Study",
+        "Facing": "North - East",
+        "Lifts": "2",
+        "Furnished Status": "Semi-Furnished",
+        "More Details": "Rental Value₹18,000 |₹3,700Monthly MaintenanceSecurity Deposit₹36, 000AddressNoida Extension, Greater Noida, Noida Extension, Greater Noida, Delhi NCRLandmarksNear By Yatharth Hospital Sector 1 Greater Noida west UPFurnishingSemi-FurnishedFlooringNormal Tiles/Kotah StoneOverlookingGarden/Park, Pool, Main RoadAge of Construction5 to 10 yearsAdditional RoomsStudyWater Availability24 Hours AvailableStatus of ElectricityNo/Rare PowercutFloors allowed for construction1Lift2Description:Stellar Jeevan is a premium residential project spread over 18 acres of prime land in Sector 1, Greater Noida West. Stellar Jeevan a masterpiece creation of Stellar Group and are a...Read moreStellar Jeevan is a premium residential project spread over 18 acres of prime land in Sector 1, Greater Noida West. Stellar Jeevan a masterpiece creation of Stellar Group and are available in brilliantly designed 2BHK, 3BHK and 4BHK apartments with enhancing lifestyle amenities and hiend luxurious specifications.Read lessContact Agent",
+        "Rental Value": "₹18,000 |₹3,700Monthly Maintenance",
+        "Address": "Noida Extension, Greater Noida, Noida Extension, Greater Noida, Delhi NCR",
+        "Landmarks": "Near By Yatharth Hospital Sector 1 Greater Noida west UP",
+        "Furnishing": "Semi-Furnished",
+        "Flooring": "Normal Tiles/Kotah Stone",
+        "Overlooking": "Garden/Park, Pool, Main Road",
+        "Age of Construction": "5 to 10 years",
+        "Water Availability": "24 Hours Available",
+        "Status of Electricity": "No/Rare Powercut",
+        "Floors allowed for construction": "1",
+        "Lift": "2",
+        "Description:": "Stellar Jeevan is a premium residential project spread over 18 acres of prime land in Sector 1, Greater Noida West. Stellar Jeevan a masterpiece creation of Stellar Group and are a...Read more",
+        "About ProjectExplore Project": "Stellar JeevanbyStellar Spring Projects Pvt Ltd4.315 ReviewsPrice₹83.5 Lac-₹1.83 CrCheck Market Price of2 BHKPowered byPropWorthConfiguration2 BHK FlatsTower & Unit18 Towers,2010 UnitsDownload BrochureCompare Projects",
+        "About Project": "Explore Project",
+        "Price": "₹83.5 Lac-₹1.83 Cr",
+        "Check Market Price of": "2 BHK",
+        "Configuration": "2 BHK Flats",
+        "Tower & Unit": "18 Towers,2010 Units",
+        "Amenities": "Power Back UpLiftClub HouseSwimming PoolGymnasiumParkReserved ParkingSecurityIntercom FacilityLaundry ServicePiped GasJogging and Strolling TrackBank & ATMIndoor Squash & Badminton CourtsKids Play AreaMeditation AreaFire Fighting EquipmentView all Amenities(17)Download Brochure",
+        "About Noida ExtensionExplore Locality": "3.7177 ReviewsRank 36out of 441 localitiesEnvironment3.7Neighbourhood3.8Roads3.8Safety3.2Cleanliness3.8Commuting3.8Public Transport3.6Parking3.9Connectivity4.3Traffic3.5Places of Interest3.8Schools4Hospitals3.6Restaurants3.8Markets3.7Noida Extension or Greater Noida West is a big and developing micro-market of Greater Noida. Situated along the Noida-Greater Noida Link Road, it stretches from Gaur City in the north to Knowledge Park V in the south, and consists...Read moreCompare Localities",
+        "About Noida Extension": "Explore Locality",
+        "Popular Landmarks Nearby": "Explore nearby Landmarks on map",
+        "Contact Agent": "Kapil+91-98XXXXXXXX",
+        "Owner Properties Available Only on MB": "8+2 BHK Flat₹16,5001050 sqftNoida Extension, Greater NoidaImmediately AvailableContact Owner6+2 BHK Flat₹18,000880 sqftTech Zone, Gautam Budh Nagar, Yamuna Expressway, Greater NoidaImmediately AvailableContact Owner35+2 BHK Flat₹16,5001050 sqftNoida Extension, Greater NoidaImmediately AvailableContact Owner5+2 BHK Flat₹18,000850 sqftNoida Extension, Greater NoidaImmediately AvailableContact Owner",
+        "Verified on Magicbricks": "Verified on Site9+2 BHK Flat₹17,000990 sqftAmrapali Centurian ParkTech Zone, Gautam Budh Nagar, Yamuna Expressway, Greater NoidaContact AgentVerified on Site10+2 BHK Flat₹18,000885 sqftAmrapali Centurian ParkTech Zone, Gautam Budh Nagar, Yamuna Expressway, Greater NoidaContact AgentVerified on Site7+2 BHK Flat₹19,0001164 sqftSector 16C, Greater NoidaContact AgentVerified on Site11+2 BHK Flat₹17,000990 sqftAmrapali Centurian ParkTech Zone, Gautam Budh Nagar, Yamuna Expressway, Greater NoidaContact Agent",
+        "Price Trends in Stellar Jeevan": "Other projects in Noida Extension -  Price Trends for Nov'25Project NameAvg Rate per sqftRental YieldThis Project₹8392Highest2.34 %Locality Average₹75832.6 %Victoryone Amara₹7453-Supertech Eco Village 3₹5092Lowest3.47 %",
+        "Greater Noida": "Sat, Dec 06th202509:00 AM onwards",
+        "Tools to Help You Decide Better": "EMI CalculatorKnow how much you'll have to pay every month on your loanRead moreBest Home Loan OffersGet the best bank offers curated just for your profileRead moreInteriors Budget EstimatorKnow the cost of getting your full/partial home interiors doneRead moreProperty ValuationKnow the right value for your Property before you Buy or Sell.Read moreRates & TrendsKnow all about Property Rates & Trends in your cityRead moreResearch InsightsGet experts insights and research reports on real estateRead more",
+        "Closer to Your Search": "Similar Searches2 BHK Flats for rent in Greater Noida2 BHK House for rent in Greater Noida2 BHK Villa for rent in Greater NoidaFlats near Noida ExtensionFlats for rent in Noida ExtensionFlats for rent in Sector 4 Greater NoidaFlats for rent in Techzone 4Flats for rent in Gaur City 2Flats for rent in Sector 16C Greater NoidaFlats for rent in Gaur City 1Flats for rent in Sector 2 Greater NoidaFlats for rent in Sector 1 Greater NoidaFlats for rent in Sector 10 Greater NoidaFlats for rent in Sector 16 Greater Noida3 BHK Flats near Noida Extension3 BHK Flats for rent in Noida Extension3 BHK Flats for rent in Sector 16C Greater Noida3 BHK Flats for rent in Gaur City 13 BHK Flats for rent in Techzone 43 BHK Flats for rent in Sector 2 Greater Noida3 BHK Flats for rent in Sector 1 Greater Noida3 BHK Flats for rent in Sector 16 Greater Noida4 BHK Flats near Noida Extension4 BHK Flats for rent in Noida ExtensionProperty in Noida ExtensionHouse for rent in Noida ExtensionVilla for rent in Noida ExtensionProperty for rent in Noida ExtensionNew Projects in Noida ExtensionProperty in Greater NoidaFlats for rent in Greater NoidaHouse for rent in Greater NoidaVilla for rent in Greater NoidaProperty for rent in Greater NoidaNew Projects in Greater NoidaNew Launched ProjectsFusion The Rivulet Phase 1AIG RoyalSam Palm Olympia Phase 2ATS DestinaireArihant AbodeCapital AthenaPanchsheel Greens 2Rise Resort ResidencesVrinda Heritage SkywardRG Luxury Homes Phase 2Popular ProjectsPanchsheel Greens 2Supertech Eco Village 3Amrapali Golf HomesAjnara Le GardenSupertech Eco Village 1Eros SampoornamAmrapali Dream Valley High Life 2Mahagun Mantra 2Coco CountySupertech Eco Village 4Nearby ProjectsAce AquacasaOnyxSikka Kirat GreensAFOWO Raksha AddelaHighflown Green CityMudgal ResidencyEco ResidencyNOIDA Business BayGreen Villa 2Aaradhyam Janhit Awas Yojna Affordaval HomesTop Localities in Greater NoidaFlats for rent in Yamuna ExpresswayFlats for rent in Greater Noida West Link RoadFlats for rent in Noida Greater Noida Link RoadFlats for rent in Site C RoadFlats for rent in Taj ExpresswayFlats for rent in Tech ZoneFlats for rent in Bisrakh RoadFlats for rent in Chi 5Budget SearchesFlats for rent in Noida Extension under 10,000Flats for rent in Noida Extension under 15,000Flats for rent in Noida Extension under 20,000Flats for rent in Noida Extension under 25,000Flats for rent in Noida Extension under 30,000Flats for rent in Noida Extension under 35,000Pre-Launch Projects in Greater NoidaIrish Ultra Luxury ResidencesSobha Sector 12 Greater Noida WestSka Group PrelaunchRG SkyviewHawelia Sky ParkGRC Codename Sector 12 Mazzaria 2Project by GalacticProject by HaweliaPre-Launch Projects in Noida ExtensionRG SkyviewGRC Codename Sector 12 Mazzaria 2Project by HaweliaView more",
+        "Similar Searches": "2 BHK Flats for rent in Greater Noida2 BHK House for rent in Greater Noida2 BHK Villa for rent in Greater Noida",
+        "Flats near Noida Extension": "Flats for rent in Noida ExtensionFlats for rent in Sector 4 Greater NoidaFlats for rent in Techzone 4Flats for rent in Gaur City 2Flats for rent in Sector 16C Greater NoidaFlats for rent in Gaur City 1Flats for rent in Sector 2 Greater NoidaFlats for rent in Sector 1 Greater NoidaFlats for rent in Sector 10 Greater NoidaFlats for rent in Sector 16 Greater Noida",
+        "3 BHK Flats near Noida Extension": "3 BHK Flats for rent in Noida Extension3 BHK Flats for rent in Sector 16C Greater Noida3 BHK Flats for rent in Gaur City 13 BHK Flats for rent in Techzone 43 BHK Flats for rent in Sector 2 Greater Noida3 BHK Flats for rent in Sector 1 Greater Noida3 BHK Flats for rent in Sector 16 Greater Noida",
+        "4 BHK Flats near Noida Extension": "4 BHK Flats for rent in Noida Extension",
+        "Property in Noida Extension": "House for rent in Noida ExtensionVilla for rent in Noida ExtensionProperty for rent in Noida ExtensionNew Projects in Noida Extension",
+        "Property in Greater Noida": "Flats for rent in Greater NoidaHouse for rent in Greater NoidaVilla for rent in Greater NoidaProperty for rent in Greater NoidaNew Projects in Greater Noida",
+        "New Launched Projects": "Fusion The Rivulet Phase 1AIG RoyalSam Palm Olympia Phase 2ATS DestinaireArihant AbodeCapital AthenaPanchsheel Greens 2Rise Resort ResidencesVrinda Heritage SkywardRG Luxury Homes Phase 2",
+        "Popular Projects": "Panchsheel Greens 2Supertech Eco Village 3Amrapali Golf HomesAjnara Le GardenSupertech Eco Village 1Eros SampoornamAmrapali Dream Valley High Life 2Mahagun Mantra 2Coco CountySupertech Eco Village 4",
+        "Nearby Projects": "Ace AquacasaOnyxSikka Kirat GreensAFOWO Raksha AddelaHighflown Green CityMudgal ResidencyEco ResidencyNOIDA Business BayGreen Villa 2Aaradhyam Janhit Awas Yojna Affordaval Homes",
+        "Top Localities in Greater Noida": "Flats for rent in Yamuna ExpresswayFlats for rent in Greater Noida West Link RoadFlats for rent in Noida Greater Noida Link RoadFlats for rent in Site C RoadFlats for rent in Taj ExpresswayFlats for rent in Tech ZoneFlats for rent in Bisrakh RoadFlats for rent in Chi 5",
+        "Budget Searches": "Flats for rent in Noida Extension under 10,000Flats for rent in Noida Extension under 15,000Flats for rent in Noida Extension under 20,000Flats for rent in Noida Extension under 25,000Flats for rent in Noida Extension under 30,000Flats for rent in Noida Extension under 35,000",
+        "Pre-Launch Projects in Greater Noida": "Irish Ultra Luxury ResidencesSobha Sector 12 Greater Noida WestSka Group PrelaunchRG SkyviewHawelia Sky ParkGRC Codename Sector 12 Mazzaria 2Project by GalacticProject by Hawelia",
+        "Pre-Launch Projects in Noida Extension": "RG SkyviewGRC Codename Sector 12 Mazzaria 2Project by Hawelia",
+        "Agent Details": "Kapil4500+ Buyers ServedAngel Realty SolutionsContact AgentAuthorised dealers ofCivitech , Fusion , StellarOperating InStellar Jeevan, Sector-1 Greater noida west, Noida, Uttar Pradesh, IndiaOperating Since1996Properties for Sale29Properties for Rent10",
+        "Operating In": "Stellar Jeevan, Sector-1 Greater noida west, Noida, Uttar Pradesh, India",
+        "Operating Since": "1996",
+        "Properties for Sale": "29",
+        "Properties for Rent": "10",
+        "Disclaimer:": "Magicbricks has endeavoured to ascertain the requirement of RERA registration. However, the advertiser claims that there is no requirement for such registration. Users are cautioned accordingly...Read more",
+        "About Magicbricks": "As the largest platform connecting property buyers and sellers, Magicbricks boasts over 2 crore monthly visitors and 15 lakh active property listings. With over 17 years of experience, Magicbricks has evolved into a comprehensive service provider, offering home loans, interiors and expert advice.Magicbricks also offers extensive research-based knowledge and insight-driven platforms like MBTV, India's leading online real estate YouTube channel, along with proprietary tools providing home buyers with price trends, forecasts and locality reviews.",
+        "Properties in India": "Property in New DelhiProperty in MumbaiProperty in ChennaiProperty in PuneProperty in NoidaProperty in GurgaonProperty in BangaloreProperty in Ahmedabad",
+        "New Projects in India": "New Projects in New DelhiNew Projects in MumbaiNew Projects in ChennaiNew Projects in PuneNew Projects in NoidaNew Projects in GurgaonNew Projects in BangaloreNew Projects in AhmedabadMagicHomes",
+        "Property Services": "Home LoanHome Interior",
+        "Society": "Stellar Jeevan",
+        "Bathrooms": "2",
+        "Balcony": "3"
+    },
+    "description": "Monthly Rent - 18,000 ✓ 1193 Sq-ft  - Stellar Jeevan is a premium residential project spread over 18 acres of prime land in Sector 1, Greater Noida West",
+    "area": "894sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹20/sqft"
+}

@@ -1,0 +1,182 @@
+{
+    "property_id": "4d423832333638383337",
+    "property_name": null,
+    "url": "https://www.magicbricks.com/propertyDetails/3-BHK-3350-Sq-ft-Multistorey-Apartment-FOR-Rent-Jaypee-Greens-in-Greater-Noida&id=4d423832333638383337",
+    "bhk": "3 BHK",
+    "price": "50 Lac",
+    "locality": null,
+    "address": null,
+    "image_urls": [
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/30/Photo_h300_w450/82368837_1_hatsAppImage20251124at12.46.051_300_450.jpeg",
+        "https://img.staticmb.com/mbimages/project/Photo_h100_w150/2024/09/06/Project-Photo-27-Jaypee-Greens-Crescent-Court-Greater-Noida-5010146_410_1440_100_150.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/30/Photo_h300_w450/82368837_4_hatsAppImage20251124at12.46.07_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/30/Photo_h300_w450/82368837_5_hatsAppImage20251124at12.46.071_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/30/Photo_h300_w450/82368837_2_hatsAppImage20251124at12.46.072_300_450.jpeg",
+        "https://img.staticmb.com/mbimages/topagent/Profile-1-3599121_1024_682.jpeg"
+    ],
+    "local_images": [
+        "scraped_data/images/4d423832333638383337/82368837_1_hatsAppImage20251124at12.46.051_300_450.jpeg",
+        "scraped_data/images/4d423832333638383337/Project-Photo-27-Jaypee-Greens-Crescent-Court-Greater-Noida-5010146_410_1440_100_150.jpg",
+        "scraped_data/images/4d423832333638383337/82368837_4_hatsAppImage20251124at12.46.07_300_450.jpeg",
+        "scraped_data/images/4d423832333638383337/82368837_5_hatsAppImage20251124at12.46.071_300_450.jpeg",
+        "scraped_data/images/4d423832333638383337/82368837_2_hatsAppImage20251124at12.46.072_300_450.jpeg",
+        "scraped_data/images/4d423832333638383337/Profile-1-3599121_1024_682.jpeg"
+    ],
+    "youtube_video": null,
+    "basic_details": {
+        "configuration": null,
+        "rent": null,
+        "super_builtup_area": null,
+        "carpet_area": null,
+        "furnishing": null,
+        "available_for": null,
+        "available_from": null,
+        "posted_by": null
+    },
+    "features": {
+        "property": [],
+        "society": []
+    },
+    "nearby_places": [],
+    "reviews": [],
+    "scraped_at": "2025-12-04T12:23:28.328488",
+    "meta_data": {
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Monthly Rent - 1.2 Lac ✓ 3350 Sq-ft  - Jaypee Greens Crescent Court is a unique collection of luxury apartments with golf and green views par excellence"
+    },
+    "structured_data": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Magicbricks Realty Services Limited",
+            "url": "https://www.magicbricks.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn.staticmb.com/mbimages/appimages/mailers/mb-logo-web.webp",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/magicbricks",
+                "https://www.twitter.com/magicbricks",
+                "https://www.youtube.com/user/magicbricksvideo",
+                "https://www.linkedin.com/company/magicbricks/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Magicbricks Realty Services Limited (magicbricks.com), Times Centre (Digital Content Production Facility),FC - 6, (Third Floor), Sector 16 A, Film City",
+                "addressLocality": "Noida",
+                "addressRegion": "India",
+                "postalCode": "201301"
+            },
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+91 120-6866600",
+                    "contactType": "Customer Service",
+                    "areaServed": "India"
+                }
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "type": "Apartment",
+            "name": "3 BHK Multistorey Apartment  3350 ",
+            "description": "4 Bath, , Semi-Furnished, 12 floor, North - East facing",
+            "url": "https://www.magicbricks.com/propertyDetails/3-BHK-3350-Sq-ft-Multistorey-Apartment-FOR-Rent-Jaypee-Greens-in-Greater-Noida&id=4d423832333638383337",
+            "numberOfRooms": "3",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jaypee Greens",
+                "addressRegion": "Greater Noida",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "IN"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "longitude": "77.523315",
+                "latitude": "28.470013"
+            },
+            "floorSize": {
+                "@type": "QuantitativeValue",
+                "name": "3350 FTK"
+            }
+        }
+    ],
+    "dynamic_facts": {
+        "Rent": "₹1,15,000",
+        "Monthly Maintenance": "₹12,000",
+        "Monthly Charges": "₹1,27,000",
+        "First Month Charges": "Monthly Charges₹1,27,000",
+        "Security Deposit": "₹1.2 Lac",
+        "Brokerage (30 days)": "₹1,15,000",
+        "Total First Month Amount": "₹3,57,000",
+        "Jaypee Greens, Greater Noida": "View on map",
+        "Carpet Area": "3350sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹34/sqft",
+        "Developer": "Jaypee Greens",
+        "Project": "Jaypee Greens Crescent Court",
+        "Floor": "12(Out of 20 Floors)",
+        "Status": "Immediately",
+        "Additional Rooms": "Servant Room",
+        "Facing": "North - East",
+        "Lifts": "2",
+        "Furnished Status": "Semi-Furnished",
+        "More Details": "Rental Value₹1.2 Lac  |₹12,000Monthly MaintenanceSecurity Deposit₹1.2 LacAddressJaypee Greens, Greater Noida, Jaypee Greens, Greater Noida, Delhi NCRLandmarksnear parichowkFurnishingSemi-FurnishedFlooringMarble, Marbonite, WoodenOverlookingGarden/ParkAge of ConstructionLess than 5 yearsAdditional RoomsServant RoomWater Availability24 Hours AvailableStatus of ElectricityNo/Rare PowercutFloors allowed for construction1Lift2Description:Jaypee Greens Crescent Court is a unique collection of luxury apartments with golf and green views par excellence. Laid out in a crescent manner with 6  21 storey towers, Crescent ...Read moreJaypee Greens Crescent Court is a unique collection of luxury apartments with golf and green views par excellence. Laid out in a crescent manner with 6  21 storey towers, Crescent Court offers 1,23 BHK apartments that embody the true essence of luxury and lifestyle with a new efficient layout.. The residents of these apartments will have an access to an exclusive club on the sixth floor of the tower with facilities like swimming pool, gymnasium, recreational areas and much more.Read lessContact Agent",
+        "Rental Value": "₹1.2 Lac  |₹12,000Monthly Maintenance",
+        "Address": "Jaypee Greens, Greater Noida, Jaypee Greens, Greater Noida, Delhi NCR",
+        "Landmarks": "near parichowk",
+        "Furnishing": "Semi-Furnished",
+        "Flooring": "Marble, Marbonite, Wooden",
+        "Overlooking": "Garden/Park",
+        "Age of Construction": "Less than 5 years",
+        "Water Availability": "24 Hours Available",
+        "Status of Electricity": "No/Rare Powercut",
+        "Floors allowed for construction": "1",
+        "Lift": "2",
+        "Description:": "Jaypee Greens Crescent Court is a unique collection of luxury apartments with golf and green views par excellence. Laid out in a crescent manner with 6  21 storey towers, Crescent ...Read more",
+        "About ProjectExplore Project": "Jaypee Greens Crescent CourtbyJaypee GreensPrice₹2.29 Cr-₹8.96 CrConfiguration1, 2, 3 BHK FlatTower6 TowersDownload BrochureCompare Projects",
+        "About Project": "Explore Project",
+        "Price": "₹2.29 Cr-₹8.96 Cr",
+        "Configuration": "1, 2, 3 BHK Flat",
+        "Tower": "6 Towers",
+        "Amenities": "Power Back UpLiftRain Water HarvestingClub HouseSwimming PoolGymnasiumParkReserved ParkingSecurityWater StorageVaastu CompliantService/Goods LiftVisitor ParkingMaintenance StaffWaste DisposalLaundry ServiceDTH Television FacilityRO Water SystemBanquet HallCafeteria/Food CourtConference RoomPiped GasJogging and Strolling TrackOutdoor Tennis CourtsGolf CourseAEROBICS ROOMArts & Craft StudioBarbeque PitBank & ATMConcierge ServicesDance StudioEarly Learning CentreEvent Space & AmphitheatreFlower GardensGuest AccommodationMeditation AreaRentable Community SpaceRetail Boulevard (Retail Shops)Activity Deck4Cycling & Jogging TrackFire Fighting EquipmentBadminton courtView all Amenities(42)Download Brochure",
+        "Previously Viewed Properties": "2 BHK Flat₹18,000894 sqftStellar JeevanNoida Extension, Greater NoidaContact Agent",
+        "About Jaypee GreensExplore Locality": "4.521 ReviewsRank 6out of 441 localitiesEnvironment4.9Neighbourhood4.8Roads4.9Safety5Cleanliness5Commuting4.4Public Transport3.6Parking4.9Connectivity4.4Traffic4.7Places of Interest4.3Schools4.4Hospitals4.4Restaurants4.3Markets4.2Educational InstitutesJaypee Public SchoolNearby LocalitiesGroup Housing Society, Greater NoidaAlpha 1, Greater NoidaCompare Localities",
+        "About Jaypee Greens": "Explore Locality",
+        "Landmarks Near Jaypee Greens Crescent Court": "Educational InstituteJaypee Public School(0.7 Km)",
+        "Popular Landmarks Nearby": "Explore nearby Landmarks on map",
+        "Contact Agent": "Nikhil Garg+91-99XXXXXXXX",
+        "Price Trends in Jaypee Greens Crescent Court": "Other projects in Jaypee Greens -  Price Trends for Nov'25Project NameAvg Rate per sqftRental YieldThis Project₹21904Highest2.09 %Locality Average₹14218Lowest2.58 %",
+        "Greater Noida": "Sat, Dec 06th202509:00 AM onwards",
+        "Tools to Help You Decide Better": "EMI CalculatorKnow how much you'll have to pay every month on your loanRead moreBest Home Loan OffersGet the best bank offers curated just for your profileRead moreInteriors Budget EstimatorKnow the cost of getting your full/partial home interiors doneRead moreProperty ValuationKnow the right value for your Property before you Buy or Sell.Read moreRates & TrendsKnow all about Property Rates & Trends in your cityRead moreResearch InsightsGet experts insights and research reports on real estateRead more",
+        "Closer to Your Search": "Similar Searches3 BHK Flats for rent in Greater Noida3 BHK House for rent in Greater Noida3 BHK Villa for rent in Greater NoidaFlats near Jaypee GreensFlats for rent in Jaypee GreensFlats for rent in PI 2Flats for rent in Chuharpur KhadarFlats for rent in Omicron 3Flats for rent in Chi 32 BHK Flats near Jaypee Greens2 BHK Flats for rent in Jaypee Greens2 BHK Flats for rent in Omicron 32 BHK Flats for rent in Yamuna Expressway2 BHK Flats for rent in Omicron 12 BHK Flats for rent in Zeta2 BHK Flats for rent in Chi 54 BHK Flats near Jaypee Greens4 BHK Flats for rent in Jaypee Greens4 BHK Flats for rent in Chi 5Property in Jaypee GreensProperty for rent in Jaypee GreensNew Projects in Jaypee GreensProperty in Greater NoidaFlats for rent in Greater NoidaHouse for rent in Greater NoidaVilla for rent in Greater NoidaProperty for rent in Greater NoidaNew Projects in Greater NoidaNew Launched ProjectsGaurs The IslandsTrecento ResidencesH&S Page Three ResidencesCRC The Peridona C1Popular ProjectsJaypee Greens Crescent CourtJaypee Greens The CastilleJaypee Greens Sun CourtJaypee Green VillasJaypee Green Sun Court Tower IIIJaypee GreensNearby ProjectsJaypee Greens Crescent CourtH&S Page Three ResidencesJaypee The Castille llJaypee Greens Town HomesJAYPEE GREENS E 10 LAND 1JAYPEE GREENS E 12 LAND 1Jaypee Greens SV 24 Land 2Jaiprakash Jaypee Greens Sv 14 Land 2JAYPEE GREENS V 07 LAND 2JAYPEE GREENS E 6 LAND2Top Localities in Greater NoidaFlats for rent in Noida ExtensionFlats for rent in Yamuna ExpresswayFlats for rent in Greater Noida West Link RoadFlats for rent in Noida Greater Noida Link RoadFlats for rent in Chi 5Flats for rent in Surajpur Kasna RoadFlats for rent in Tech ZoneFlats for rent in Site C RoadFlats for rent in Noida Greater Noida ExpresswayPre-Launch Projects in Greater NoidaIrish Ultra Luxury ResidencesSobha Sector 12 Greater Noida WestSka Group PrelaunchRG SkyviewHawelia Sky ParkGRC Codename Sector 12 Mazzaria 2Project by GalacticProject by HaweliaView more",
+        "Similar Searches": "3 BHK Flats for rent in Greater Noida3 BHK House for rent in Greater Noida3 BHK Villa for rent in Greater Noida",
+        "Flats near Jaypee Greens": "Flats for rent in Jaypee GreensFlats for rent in PI 2Flats for rent in Chuharpur KhadarFlats for rent in Omicron 3Flats for rent in Chi 3",
+        "2 BHK Flats near Jaypee Greens": "2 BHK Flats for rent in Jaypee Greens2 BHK Flats for rent in Omicron 32 BHK Flats for rent in Yamuna Expressway2 BHK Flats for rent in Omicron 12 BHK Flats for rent in Zeta2 BHK Flats for rent in Chi 5",
+        "4 BHK Flats near Jaypee Greens": "4 BHK Flats for rent in Jaypee Greens4 BHK Flats for rent in Chi 5",
+        "Property in Jaypee Greens": "Property for rent in Jaypee GreensNew Projects in Jaypee Greens",
+        "Property in Greater Noida": "Flats for rent in Greater NoidaHouse for rent in Greater NoidaVilla for rent in Greater NoidaProperty for rent in Greater NoidaNew Projects in Greater Noida",
+        "New Launched Projects": "Gaurs The IslandsTrecento ResidencesH&S Page Three ResidencesCRC The Peridona C1",
+        "Popular Projects": "Jaypee Greens Crescent CourtJaypee Greens The CastilleJaypee Greens Sun CourtJaypee Green VillasJaypee Green Sun Court Tower IIIJaypee Greens",
+        "Nearby Projects": "Jaypee Greens Crescent CourtH&S Page Three ResidencesJaypee The Castille llJaypee Greens Town HomesJAYPEE GREENS E 10 LAND 1JAYPEE GREENS E 12 LAND 1Jaypee Greens SV 24 Land 2Jaiprakash Jaypee Greens Sv 14 Land 2JAYPEE GREENS V 07 LAND 2JAYPEE GREENS E 6 LAND2",
+        "Top Localities in Greater Noida": "Flats for rent in Noida ExtensionFlats for rent in Yamuna ExpresswayFlats for rent in Greater Noida West Link RoadFlats for rent in Noida Greater Noida Link RoadFlats for rent in Chi 5Flats for rent in Surajpur Kasna RoadFlats for rent in Tech ZoneFlats for rent in Site C RoadFlats for rent in Noida Greater Noida Expressway",
+        "Pre-Launch Projects in Greater Noida": "Irish Ultra Luxury ResidencesSobha Sector 12 Greater Noida WestSka Group PrelaunchRG SkyviewHawelia Sky ParkGRC Codename Sector 12 Mazzaria 2Project by GalacticProject by Hawelia",
+        "Agent Details": "Nikhil Garg4000+ Buyers ServedSai Nath AssociateContact AgentOperating InGreater Noida, Delhi NCR, IndiaOperating Since2001Properties for Sale102Properties for Rent32",
+        "Operating In": "Greater Noida, Delhi NCR, India",
+        "Operating Since": "2001",
+        "Properties for Sale": "102",
+        "Properties for Rent": "32",
+        "Disclaimer:": "Magicbricks has endeavoured to ascertain the requirement of RERA registration. However, the advertiser claims that there is no requirement for such registration. Users are cautioned accordingly...Read more",
+        "About Magicbricks": "As the largest platform connecting property buyers and sellers, Magicbricks boasts over 2 crore monthly visitors and 15 lakh active property listings. With over 17 years of experience, Magicbricks has evolved into a comprehensive service provider, offering home loans, interiors and expert advice.Magicbricks also offers extensive research-based knowledge and insight-driven platforms like MBTV, India's leading online real estate YouTube channel, along with proprietary tools providing home buyers with price trends, forecasts and locality reviews.",
+        "Properties in India": "Property in New DelhiProperty in MumbaiProperty in ChennaiProperty in PuneProperty in NoidaProperty in GurgaonProperty in BangaloreProperty in Ahmedabad",
+        "New Projects in India": "New Projects in New DelhiNew Projects in MumbaiNew Projects in ChennaiNew Projects in PuneNew Projects in NoidaNew Projects in GurgaonNew Projects in BangaloreNew Projects in AhmedabadMagicHomes",
+        "Property Services": "Home LoanHome Interior",
+        "Society": "Jaypee Greens Crescent Court",
+        "Bathrooms": "4",
+        "Balcony": "1"
+    },
+    "description": "Monthly Rent - 1.2 Lac ✓ 3350 Sq-ft  - Jaypee Greens Crescent Court is a unique collection of luxury apartments with golf and green views par excellence",
+    "area": "3350sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹34/sqft"
+}

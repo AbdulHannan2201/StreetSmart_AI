@@ -1,0 +1,196 @@
+{
+    "property_id": "4d423830313232393637",
+    "property_name": null,
+    "url": "https://www.magicbricks.com/propertyDetails/1-BHK-500-Sq-ft-Multistorey-Apartment-FOR-Rent-Omicron-1-in-Greater-Noida&id=4d423830313232393637",
+    "bhk": "1 BHK",
+    "price": "50 Lac",
+    "locality": null,
+    "address": null,
+    "image_urls": [
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/14/Photo_h300_w450/81567591_3_PropertyImage6-19583931875578_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/14/Photo_h300_w450/81978455_5_PropertyImage435-86016010433906_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/May/25/Photo_h300_w450/79693257_12_PropertyImage336-30705375462355_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/03/Photo_h300_w450/3550_OUTSIDEVIEW_300_450.jpeg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/14/Photo_h300_w450/76706575_4_PropertyImage375-7911436188732_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/30/Photo_h300_w450/82368193_2_PropertyImage559-9077452769991_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/04/Photo_h300_w450/72650037_4_PropertyImage715-5228901221348_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Oct/17/Photo_h300_w450/81667349_1_PropertyImage1760724689031_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/04/Photo_h300_w450/61272871_5_IMG-20251103-WA0006_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/28/Photo_h300_w450/81892401_2_PropertyImage268-959096822415_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/10/Photo_h300_w450/82050285_5_PropertyImage906-6241841901925_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Nov/11/Photo_h300_w450/81772123_8_PropertyImage394-4000977394193_300_450.jpg",
+        "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Sep/18/Photo_h300_w450/81434103_3__300_450.jpeg"
+    ],
+    "local_images": [
+        "scraped_data/images/4d423830313232393637/81567591_3_PropertyImage6-19583931875578_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/81978455_5_PropertyImage435-86016010433906_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/79693257_12_PropertyImage336-30705375462355_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/3550_OUTSIDEVIEW_300_450.jpeg",
+        "scraped_data/images/4d423830313232393637/76706575_4_PropertyImage375-7911436188732_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/82368193_2_PropertyImage559-9077452769991_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/72650037_4_PropertyImage715-5228901221348_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/81667349_1_PropertyImage1760724689031_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/61272871_5_IMG-20251103-WA0006_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/81892401_2_PropertyImage268-959096822415_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/82050285_5_PropertyImage906-6241841901925_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/81772123_8_PropertyImage394-4000977394193_300_450.jpg",
+        "scraped_data/images/4d423830313232393637/81434103_3__300_450.jpeg"
+    ],
+    "youtube_video": null,
+    "basic_details": {
+        "configuration": null,
+        "rent": null,
+        "super_builtup_area": null,
+        "carpet_area": null,
+        "furnishing": null,
+        "available_for": null,
+        "available_from": null,
+        "posted_by": null
+    },
+    "features": {
+        "property": [],
+        "society": []
+    },
+    "nearby_places": [],
+    "reviews": [],
+    "scraped_at": "2025-12-04T12:23:58.271152",
+    "meta_data": {
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Monthly Rent - 15,000 ✓ 500 Sq-ft  - A spacious and well maintained 1BHK semi furnished apartment is available for rent in SOCRATES2 CZAR SUITES, located in Omicron1, Greater Noida"
+    },
+    "structured_data": [
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Magicbricks Realty Services Limited",
+            "url": "https://www.magicbricks.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn.staticmb.com/mbimages/appimages/mailers/mb-logo-web.webp",
+                "width": 600,
+                "height": 60
+            },
+            "sameAs": [
+                "https://www.facebook.com/magicbricks",
+                "https://www.twitter.com/magicbricks",
+                "https://www.youtube.com/user/magicbricksvideo",
+                "https://www.linkedin.com/company/magicbricks/"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Magicbricks Realty Services Limited (magicbricks.com), Times Centre (Digital Content Production Facility),FC - 6, (Third Floor), Sector 16 A, Film City",
+                "addressLocality": "Noida",
+                "addressRegion": "India",
+                "postalCode": "201301"
+            },
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+91 120-6866600",
+                    "contactType": "Customer Service",
+                    "areaServed": "India"
+                }
+            ]
+        },
+        {
+            "@context": "http://schema.org/",
+            "type": "Apartment",
+            "name": "1 BHK Multistorey Apartment  500 ",
+            "description": "1 Bath, , Semi-Furnished, 21 floor, North facing",
+            "url": "https://www.magicbricks.com/propertyDetails/1-BHK-500-Sq-ft-Multistorey-Apartment-FOR-Rent-Omicron-1-in-Greater-Noida&id=4d423830313232393637",
+            "numberOfRooms": "1",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Omicron 1",
+                "addressRegion": "Greater Noida",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "IN"
+                }
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "longitude": "77.5626288780219",
+                "latitude": "28.4625646663021"
+            },
+            "floorSize": {
+                "@type": "QuantitativeValue",
+                "name": "500 FTK"
+            }
+        }
+    ],
+    "dynamic_facts": {
+        "Rent": "₹15,000",
+        "Monthly Charges": "₹15,000",
+        "First Month Charges": "Monthly Charges₹15,000",
+        "Security Deposit": "₹30, 000",
+        "Brokerage": "No brokerage",
+        "Total First Month Amount": "₹45,000",
+        "Omicron 1, Greater Noida": "View on map",
+        "Carpet Area": "450sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹33/sqft",
+        "Developer": "Supertech Limited",
+        "Project": "Supertech Socrates",
+        "Floor": "21(Out of 21 Floors)",
+        "Status": "Immediately",
+        "Facing": "North",
+        "Lifts": "2",
+        "Furnished Status": "Semi-Furnished",
+        "Car parking": "1 Covered",
+        "More Details": "Rental Value₹15,000Security Deposit₹30, 000AddressOmicron 1, Greater Noida, Omicron 1, Greater Noida, Delhi NCRLandmarksThe Grand Venice Mall, The Grand Venice MallFurnishingSemi-FurnishedFlooringVitrifiedOverlookingMain RoadAge of ConstructionNew ConstructionAdditional RoomsNone of theseWater Availability24 Hours AvailableStatus of ElectricityNo/Rare PowercutFloors allowed for construction1Lift2Description:A spacious and well maintained 1BHK semi furnished apartment is available for rent in SOCRATES2 CZAR SUITES, located in Omicron1, Greater Noida. Situated on the 21st floor of a mod...Read moreA spacious and well maintained 1BHK semi furnished apartment is available for rent in SOCRATES2 CZAR SUITES, located in Omicron1, Greater Noida. Situated on the 21st floor of a modern highrise, this apartment offers a builtup area of 477 sq. ft. and features one bedroom, one bathroom, and a balcony. The property is less than a year old and ideal for individuals or couples, it provides a comfortable living space in a peaceful and well connected locality, with easy access to essential services and transport.Read lessContact Agent",
+        "Rental Value": "₹15,000",
+        "Address": "Omicron 1, Greater Noida, Omicron 1, Greater Noida, Delhi NCR",
+        "Landmarks": "The Grand Venice Mall, The Grand Venice Mall",
+        "Furnishing": "Semi-Furnished",
+        "Flooring": "Vitrified",
+        "Overlooking": "Main Road",
+        "Age of Construction": "New Construction",
+        "Additional Rooms": "None of these",
+        "Water Availability": "24 Hours Available",
+        "Status of Electricity": "No/Rare Powercut",
+        "Floors allowed for construction": "1",
+        "Lift": "2",
+        "Description:": "A spacious and well maintained 1BHK semi furnished apartment is available for rent in SOCRATES2 CZAR SUITES, located in Omicron1, Greater Noida. Situated on the 21st floor of a mod...Read more",
+        "About ProjectExplore Project": "Supertech SocratesbySupertech Limited1.51 ReviewsPrice₹87.3 Lac-₹99.6 LacCompare Projects",
+        "About Project": "Explore Project",
+        "Price": "₹87.3 Lac-₹99.6 Lac",
+        "People who viewed this property also liked": "16+2 BHK Flat₹15,0001200 sqftundefinedYamuna Expressway, Greater NoidaContact Owner9+2 BHK Flat₹15,000950 sqftundefinedUPSIDC Site C, Greater NoidaContact Owner8+2 BHK Flat₹18,0001150 sqftAce PlatinumBlock N Zeta 1, Greater NoidaContact Agent6+2 BHK Flat₹18,000880 sqftAmrapali La ResidentialTech Zone, Gautam Budh Nagar, Yamuna Expressway, Greater NoidaContact Owner9+1 BHK Flat₹12,000600 sqftundefinedSector Alpha 2, Greater NoidaContact Owner",
+        "Previously Viewed Properties": "2 BHK Flat₹18,000894 sqftStellar JeevanNoida Extension, Greater NoidaContact Agent3 BHK Flat₹1.2 Lac3350 sqftJaypee Greens Crescent CourtJaypee Greens, Greater NoidaContact Agent",
+        "About Omicron 1Explore Locality": "4.220 ReviewsRank 61out of 441 localitiesEnvironment4.5Neighbourhood4.4Roads4.7Safety4.4Cleanliness4.6Commuting4.3Public Transport3.7Parking4.7Connectivity4.2Traffic4.4Places of Interest4Schools4.3Hospitals3.8Restaurants3.7Markets4Educational InstitutesScholars Home International SchoolNearby LocalitiesRHO 2, Greater NoidaBlock B RHO 2, Greater NoidaCompare Localities",
+        "About Omicron 1": "Explore Locality",
+        "Landmarks Near Supertech Socrates": "Educational InstituteScholars Home International School(0.6 Km)",
+        "Popular Landmarks Nearby": "Explore nearby Landmarks on map",
+        "Contact Agent": "Pryank+91-97XXXXXXXX",
+        "Owner Properties Available Only on MB": "10+1 BHK Flat₹16,500480 sqftSector-Zeta, Greater NoidaSelect DateContact Owner5+1 BHK Flat₹14,000585 sqftNoida Extension, Greater NoidaImmediately AvailableContact Owner3+1 BHK Flat₹15,000650 sqftChi 5, Greater NoidaImmediately AvailableContact Owner8+1 BHK Flat₹16,000555 sqftNoida Extension, Greater NoidaImmediately AvailableContact Owner",
+        "Verified on Magicbricks": "Verified on Site8+1 BHK Flat₹18,000598 sqftSupertech Eco Village 1Noida Extension, Greater NoidaContact AgentVerified on Site8+1 BHK Flat₹12,000598 sqftSupertech Eco Village 1Noida Extension, Greater NoidaContact AgentVerified on Site4+1 BHK Flat₹15,000410 sqftGreater NoidaContact AgentVerified on Site8+1 BHK Builder Floor₹13,500850 sqftCasa View ApartmentNoida Extension, Greater NoidaContact Agent",
+        "Price Trends in Supertech Socrates": "Other projects in Omicron 1 -  Price Trends for Nov'25Project NameAvg Rate per sqftRental YieldLocality Average₹8773Lowest2.39 %",
+        "Greater Noida": "Sat, Dec 06th202509:00 AM onwards",
+        "Tools to Help You Decide Better": "EMI CalculatorKnow how much you'll have to pay every month on your loanRead moreBest Home Loan OffersGet the best bank offers curated just for your profileRead moreInteriors Budget EstimatorKnow the cost of getting your full/partial home interiors doneRead moreProperty ValuationKnow the right value for your Property before you Buy or Sell.Read moreRates & TrendsKnow all about Property Rates & Trends in your cityRead moreResearch InsightsGet experts insights and research reports on real estateRead more",
+        "Closer to Your Search": "Similar Searches1 BHK Flats for rent in Greater Noida1 BHK House for rent in Greater NoidaFlats near Omicron 1Flats for rent in Omicron 1Flats for rent in PI 2Flats for rent in Omicron 3Flats for rent in Pari Chowk AreaFlats for rent in Omega 2Flats for rent in Chuharpur KhadarFlats for rent in Chi 32 BHK Flats near Omicron 12 BHK Flats for rent in Omicron 12 BHK Flats for rent in Omicron 32 BHK Flats for rent in Jaypee Greens2 BHK Flats for rent in Eta 22 BHK Flats for rent in Yamuna ExpresswayProperty in Omicron 1House for rent in Omicron 1Property for rent in Omicron 1New Projects in Omicron 1Property in Greater NoidaFlats for rent in Greater NoidaHouse for rent in Greater NoidaVilla for rent in Greater NoidaProperty for rent in Greater NoidaNew Projects in Greater NoidaNew Launched ProjectsGaur AtulyamPopular ProjectsSupertech Czar SuitesGaur AtulyamSupertech Czar VillasSupertech SocratesEldeco Mystic Greenssankalp apartmentEldeco Mystic Green Phase 2Nearby ProjectsSupertech Czar SuitesEldeco Mystic GreensSupertech Czar VillasSupertech SocratesEldeco Mystic Green Phase 2GNIDA ApartmentsGaur Atulyam GravityEldeco AustinaLal BuildingGNIDA Lohiya EnclaveTop Localities in Greater NoidaFlats for rent in Noida ExtensionFlats for rent in Yamuna ExpresswayFlats for rent in Surajpur Kasna RoadFlats for rent in Site C RoadFlats for rent in Sector Alpha RoadFlats for rent in Greater Noida West Link RoadFlats for rent in ZetaFlats for rent in Noida Greater Noida Link RoadBudget SearchesFlats for rent in Omicron 1 under 15,000Flats for rent in Omicron 1 under 20,000Flats for rent in Omicron 1 under 25,000Flats for rent in Omicron 1 under 30,000Pre-Launch Projects in Greater NoidaIrish Ultra Luxury ResidencesSobha Sector 12 Greater Noida WestSka Group PrelaunchRG SkyviewHawelia Sky ParkGRC Codename Sector 12 Mazzaria 2Project by GalacticProject by HaweliaView more",
+        "Similar Searches": "1 BHK Flats for rent in Greater Noida1 BHK House for rent in Greater Noida",
+        "Flats near Omicron 1": "Flats for rent in Omicron 1Flats for rent in PI 2Flats for rent in Omicron 3Flats for rent in Pari Chowk AreaFlats for rent in Omega 2Flats for rent in Chuharpur KhadarFlats for rent in Chi 3",
+        "2 BHK Flats near Omicron 1": "2 BHK Flats for rent in Omicron 12 BHK Flats for rent in Omicron 32 BHK Flats for rent in Jaypee Greens2 BHK Flats for rent in Eta 22 BHK Flats for rent in Yamuna Expressway",
+        "Property in Omicron 1": "House for rent in Omicron 1Property for rent in Omicron 1New Projects in Omicron 1",
+        "Property in Greater Noida": "Flats for rent in Greater NoidaHouse for rent in Greater NoidaVilla for rent in Greater NoidaProperty for rent in Greater NoidaNew Projects in Greater Noida",
+        "New Launched Projects": "Gaur Atulyam",
+        "Popular Projects": "Supertech Czar SuitesGaur AtulyamSupertech Czar VillasSupertech SocratesEldeco Mystic Greenssankalp apartmentEldeco Mystic Green Phase 2",
+        "Nearby Projects": "Supertech Czar SuitesEldeco Mystic GreensSupertech Czar VillasSupertech SocratesEldeco Mystic Green Phase 2GNIDA ApartmentsGaur Atulyam GravityEldeco AustinaLal BuildingGNIDA Lohiya Enclave",
+        "Top Localities in Greater Noida": "Flats for rent in Noida ExtensionFlats for rent in Yamuna ExpresswayFlats for rent in Surajpur Kasna RoadFlats for rent in Site C RoadFlats for rent in Sector Alpha RoadFlats for rent in Greater Noida West Link RoadFlats for rent in ZetaFlats for rent in Noida Greater Noida Link Road",
+        "Budget Searches": "Flats for rent in Omicron 1 under 15,000Flats for rent in Omicron 1 under 20,000Flats for rent in Omicron 1 under 25,000Flats for rent in Omicron 1 under 30,000",
+        "Pre-Launch Projects in Greater Noida": "Irish Ultra Luxury ResidencesSobha Sector 12 Greater Noida WestSka Group PrelaunchRG SkyviewHawelia Sky ParkGRC Codename Sector 12 Mazzaria 2Project by GalacticProject by Hawelia",
+        "Agent Details": "PPryank169000+ Buyers ServedHousewise.inContact AgentOperating In91Springboard, Sadanand Business Center, 9th Floor..., Pune, Maharashtra, 411045, IndiaOperating Since2016Properties for Sale66Properties for Rent215",
+        "Operating In": "91Springboard, Sadanand Business Center, 9th Floor..., Pune, Maharashtra, 411045, India",
+        "Operating Since": "2016",
+        "Properties for Sale": "66",
+        "Properties for Rent": "215",
+        "Disclaimer:": "Magicbricks has endeavoured to ascertain the requirement of RERA registration. However, the advertiser claims that there is no requirement for such registration. Users are cautioned accordingly...Read more",
+        "About Magicbricks": "As the largest platform connecting property buyers and sellers, Magicbricks boasts over 2 crore monthly visitors and 15 lakh active property listings. With over 17 years of experience, Magicbricks has evolved into a comprehensive service provider, offering home loans, interiors and expert advice.Magicbricks also offers extensive research-based knowledge and insight-driven platforms like MBTV, India's leading online real estate YouTube channel, along with proprietary tools providing home buyers with price trends, forecasts and locality reviews.",
+        "Properties in India": "Property in New DelhiProperty in MumbaiProperty in ChennaiProperty in PuneProperty in NoidaProperty in GurgaonProperty in BangaloreProperty in Ahmedabad",
+        "New Projects in India": "New Projects in New DelhiNew Projects in MumbaiNew Projects in ChennaiNew Projects in PuneNew Projects in NoidaNew Projects in GurgaonNew Projects in BangaloreNew Projects in AhmedabadMagicHomes",
+        "Property Services": "Home LoanHome Interior",
+        "Society": "Supertech Socrates",
+        "Bathrooms": "1",
+        "Balcony": "1"
+    },
+    "description": "Monthly Rent - 15,000 ✓ 500 Sq-ft  - A spacious and well maintained 1BHK semi furnished apartment is available for rent in SOCRATES2 CZAR SUITES, located in Omicron1, Greater Noida",
+    "area": "450sqftsqftsqyrdsqmacrebighahectaremarlakanalbiswa1biswa2groundaankadamroodchatakkottahmarlacentperchgunthaarekathagajkillakuncham₹33/sqft"
+}
