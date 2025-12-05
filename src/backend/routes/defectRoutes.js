@@ -35,6 +35,6 @@ const upload = multer({
     },
 });
 
-router.post("/analyze", upload.single("image"), analyzeDefect);
+router.post("/analyze", upload.any(), analyzeDefect);
 
 module.exports = router;

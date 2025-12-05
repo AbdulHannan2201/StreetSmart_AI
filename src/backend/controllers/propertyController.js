@@ -86,10 +86,78 @@ const deleteProperty = asyncHandler(async (req, res) => {
   res.json({ message: "Property removed successfully" });
 });
 
+// @desc    Get logged in user's properties
+// @route   GET /api/properties/myproperties
+// @access  Private
+const getMyProperties = asyncHandler(async (req, res) => {
+  const properties = await Property.find({ owner: req.user.id });
+  res.json(properties);
+});
+
+// @desc    Create a fake property listing
+// @route   POST /api/properties/fake
+// @access  Private
+const createFakeProperty = asyncHandler(async (req, res) => {
+  // 1. Get all properties with images
+  const allProperties = await Property.find({ images: { $exists: true, $not: { $size: 0 } } });
+
+  let allImages = [];
+  allProperties.forEach(p => {
+    if (p.images && p.images.length > 0) {
+      allImages = [...allImages, ...p.images];
+    }
+  });
+
+  if (allImages.length === 0) {
+    res.status(400);
+    throw new Error("No images found in database to create fake listing");
+  }
+
+  // 2. Pick 3-5 random images
+  const numImages = Math.floor(Math.random() * 3) + 3; // 3 to 5
+  const selectedImages = [];
+  for (let i = 0; i < numImages; i++) {
+    const randomImage = allImages[Math.floor(Math.random() * allImages.length)];
+    selectedImages.push(randomImage);
+  }
+
+  // 3. Generate fake data
+  const titles = ["Beautiful Apartment", "Cozy Studio", "Spacious Villa", "Modern Condo", "Luxury Penthouse"];
+  const cities = ["Mumbai", "Delhi", "Bangalore", "Pune", "Chennai"];
+  const featuresList = ["WiFi", "Parking", "Gym", "Pool", "Security", "Balcony"];
+
+  const randomTitle = titles[Math.floor(Math.random() * titles.length)];
+  const randomCity = cities[Math.floor(Math.random() * cities.length)];
+  const randomPrice = Math.floor(Math.random() * 50000) + 10000;
+
+  // Random features
+  const randomFeatures = featuresList.filter(() => Math.random() > 0.5);
+
+  const property = await Property.create({
+    title: `${randomTitle} in ${randomCity}`,
+    description: "This is a randomly generated property listing for demonstration purposes. It features modern amenities and a great location.",
+    price: randomPrice,
+    address: `${Math.floor(Math.random() * 100)} Main St, ${randomCity}`,
+    city: randomCity,
+    state: "India",
+    country: "India",
+    features: randomFeatures,
+    images: selectedImages,
+    owner: req.user._id,
+    isScraped: false,
+    bhk: `${Math.floor(Math.random() * 3) + 1} BHK`,
+    area: `${Math.floor(Math.random() * 1000) + 500} sqft`
+  });
+
+  res.status(201).json(property);
+});
+
 module.exports = {
   getProperties,
   getPropertyById,
   createProperty,
   updateProperty,
   deleteProperty,
+  getMyProperties,
+  createFakeProperty,
 };

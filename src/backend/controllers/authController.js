@@ -46,6 +46,7 @@ const registerUser = asyncHandler(async (req, res) => {
       name: user.name,
       email: user.email,
       role: user.role,
+      savedProperties: user.savedProperties,
     },
     token: generateToken(user.id, user.role),
   });
@@ -78,12 +79,77 @@ const loginUser = asyncHandler(async (req, res) => {
       name: user.name,
       email: user.email,
       role: user.role,
+      savedProperties: user.savedProperties,
     },
     token: generateToken(user.id, user.role),
   });
 });
 
+// 👤 GET CURRENT USER PROFILE
+// @route   GET /api/auth/me
+// @access  Private
+const getMe = asyncHandler(async (req, res) => {
+  const user = await User.findById(req.user.id);
+
+  if (!user) {
+    res.status(404);
+    throw new Error("User not found");
+  }
+
+  res.status(200).json({
+    _id: user.id,
+    name: user.name,
+    email: user.email,
+    role: user.role,
+    savedProperties: user.savedProperties,
+  });
+});
+
+// 💾 TOGGLE SAVED PROPERTY
+// @route   PUT /api/auth/save/:id
+// @access  Private (Tenant only)
+const toggleSavedProperty = asyncHandler(async (req, res) => {
+  const propertyId = req.params.id;
+  const user = await User.findById(req.user.id);
+
+  if (!user) {
+    res.status(404);
+    throw new Error("User not found");
+  }
+
+  const isSaved = user.savedProperties.includes(propertyId);
+
+  if (isSaved) {
+    user.savedProperties = user.savedProperties.filter(
+      (id) => id.toString() !== propertyId
+    );
+    await user.save();
+    res.status(200).json({ message: "Property removed from saved list", savedProperties: user.savedProperties });
+  } else {
+    user.savedProperties.push(propertyId);
+    await user.save();
+    res.status(200).json({ message: "Property saved successfully", savedProperties: user.savedProperties });
+  }
+});
+
+// 📂 GET SAVED PROPERTIES
+// @route   GET /api/auth/saved
+// @access  Private (Tenant only)
+const getSavedProperties = asyncHandler(async (req, res) => {
+  const user = await User.findById(req.user.id).populate("savedProperties");
+
+  if (!user) {
+    res.status(404);
+    throw new Error("User not found");
+  }
+
+  res.status(200).json(user.savedProperties);
+});
+
 module.exports = {
   registerUser,
   loginUser,
+  getMe,
+  toggleSavedProperty,
+  getSavedProperties,
 };

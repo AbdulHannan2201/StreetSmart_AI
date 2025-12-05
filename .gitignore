@@ -34,3 +34,6 @@ Thumbs.db
 
 # Scraped Data (Optional, but usually good to ignore if large)
 # scraped_data/
+
+# Uploads
+src/backend/uploads/

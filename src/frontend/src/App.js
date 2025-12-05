@@ -11,6 +11,10 @@ import AddProperty from "./pages/AddProperty";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Discussion from "./pages/Discussion";
+import Profile from "./pages/Profile";
+import MyProperties from "./pages/MyProperties";
+import SavedProperties from "./pages/SavedProperties";
+import MyBookings from "./pages/MyBookings";
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
           <Route path="/analyzer" element={<AIAnalyzer />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/my-properties" element={<MyProperties />} />
+          <Route path="/my-bookings" element={<MyBookings />} />
+          <Route path="/saved-properties" element={<SavedProperties />} />
           <Route path="/property/:id" element={<PropertyDetail />} />
           <Route path="/agreement-analyzer" element={<AgreementAnalyzer />} />
           <Route path="/add-property" element={<AddProperty />} />

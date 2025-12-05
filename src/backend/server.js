@@ -39,6 +39,7 @@ app.use("/api/discussions", discussionRoutes);
 app.use("/api/scrape", scrapeRoutes);
 app.use("/api/agreements", agreementRoutes);
 app.use("/api/defects", require("./routes/defectRoutes"));
+app.use("/api/bookings", require("./routes/bookingRoutes"));
 
 // Serve static images
 const path = require("path");

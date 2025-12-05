@@ -118,6 +118,69 @@ const scrapeRedditDiscussions = (req, res) => {
   });
 };
 
+// --- AI Generation ---
+
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const Property = require("../models/propertyModel");
+
+const generateFakeDiscussion = async (req, res) => {
+  try {
+    // 1. Get a random property
+    const count = await Property.countDocuments();
+    const random = Math.floor(Math.random() * count);
+    const property = await Property.findOne().skip(random);
+
+    if (!property) {
+      return res.status(404).json({ message: "No properties found to discuss" });
+    }
+
+    // 2. Generate content with Gemini
+    const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+
+    const prompt = `
+      Generate a realistic, casual, and detailed user review/discussion for a real estate property named "${property.title}" located in "${property.city}".
+      
+      The review should:
+      - Be around 50-80 words.
+      - Mention specific amenities or issues (e.g., "The gym is great but parking is a mess", "Security is tight", "Water quality is poor").
+      - Have a sentiment (Positive, Negative, or Mixed).
+      - Include a rating from 1 to 5.
+      
+      Output strictly in JSON format:
+      {
+        "text": "The review text...",
+        "rating": 4
+      }
+    `;
+
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    let text = response.text().trim();
+
+    // Clean up markdown
+    if (text.startsWith("```json")) text = text.slice(7);
+    if (text.endsWith("```")) text = text.slice(0, -3);
+
+    const data = JSON.parse(text);
+
+    // 3. Create Discussion
+    const discussion = await Discussion.create({
+      propertyTitle: property.title,
+      locality: property.address || property.city,
+      rating: data.rating,
+      text: data.text,
+      author: req.user._id, // Assign to current user
+    });
+
+    res.status(201).json(discussion);
+
+  } catch (error) {
+    console.error("Error generating discussion:", error);
+    res.status(500).json({ message: "Generation failed", error: error.message });
+  }
+};
+
 module.exports = {
   getDiscussions,
   createDiscussion,
@@ -125,4 +188,5 @@ module.exports = {
   likeDiscussion,
   likeReply,
   scrapeRedditDiscussions,
+  generateFakeDiscussion,
 };

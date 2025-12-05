@@ -366,16 +366,16 @@ export default function Discussion() {
                 const selected = n <= form.rating;
 
                 return (
-                <button
-                  key={n}
-                  onClick={() =>
-                    setForm((s) => ({
-                      ...s,
-                      rating: s.rating === n ? 0 : n,
-                    }))
-                  }
-                  className="focus:outline-none"
-                >
+                  <button
+                    key={n}
+                    onClick={() =>
+                      setForm((s) => ({
+                        ...s,
+                        rating: s.rating === n ? 0 : n,
+                      }))
+                    }
+                    className="focus:outline-none"
+                  >
                     {selected ? (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -391,7 +391,7 @@ export default function Discussion() {
                           d="M11.48 3.499a.562.562 0 011.04 0l2.18 4.66a.563.563 0 00.423.308l5.16.75a.563.563 0 01.312.96l-3.732 3.64a.563.563 0 00-.162.5l.88 5.13a.563.563 0 01-.817.592l-4.61-2.42a.563.563 0 00-.524 0l-4.61 2.42a.563.563 0 01-.818-.593l.881-5.13a.563.563 0 00-.162-.5L2.405 10.18a.563.563 0 01.312-.96l5.16-.75a.563.563 0 00.423-.308l2.18-4.66z"
                         />
                       </svg>
-                  ) : (
+                    ) : (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -406,8 +406,8 @@ export default function Discussion() {
                           d="M11.48 3.499a.562.562 0 011.04 0l2.18 4.66a.563.563 0 00.423.308l5.16.75a.563.563 0 01.312.96l-3.732 3.64a.563.563 0 00-.162.5l.88 5.13a.563.563 0 01-.817.592l-4.61-2.42a.563.563 0 00-.524 0l-4.61 2.42a.563.563 0 01-.818-.593l.881-5.13a.563.563 0 00-.162-.5L2.405 10.18a.563.563 0 01.312-.96l5.16-.75a.563.563 0 00.423-.308l2.18-4.66z"
                         />
                       </svg>
-                  )}
-                </button>
+                    )}
+                  </button>
                 );
               })}
             </div>

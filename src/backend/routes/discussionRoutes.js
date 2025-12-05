@@ -6,12 +6,16 @@ const {
   addReply,
   likeDiscussion,
   likeReply,
+  generateFakeDiscussion,
 } = require("../controllers/discussionController");
 
 const router = express.Router();
 
 // Get all discussions
 router.get("/", getDiscussions);
+
+// Generate fake discussion (AI)
+router.post("/generate", protect, generateFakeDiscussion);
 
 // Create new discussion (tenant only)
 router.post("/", protect, createDiscussion);

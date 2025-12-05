@@ -94,31 +94,7 @@ export default function Navbar() {
             <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-black group-hover:w-full transition-all duration-300"></span>
           </NavLink>
 
-          {/* AI ANALYZER */}
-          <NavLink
-            to="/analyzer"
-            className={({ isActive }) =>
-              `flex items-center gap-2 relative hover:text-black transition ${isActive ? "text-black" : ""
-              } group`
-            }
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={1.8}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M9 12h6M9 16h6M7 4h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2z"
-              />
-            </svg>
-            AI Analyzer
-            <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-black group-hover:w-full transition-all duration-300"></span>
-          </NavLink>
+
 
           {/* DISCUSSIONS */}
           <NavLink
@@ -146,26 +122,59 @@ export default function Navbar() {
             <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-black group-hover:w-full transition-all duration-300"></span>
           </NavLink>
 
-          {/* LANDLORD OPTION */}
+          {/* LANDLORD OPTIONS */}
           {user?.role === "landlord" && (
+            <>
+              <NavLink
+                to="/my-properties"
+                className={({ isActive }) =>
+                  `flex items-center gap-2 relative hover:text-black transition ${isActive ? "text-black" : ""
+                  } group`
+                }
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+                My Properties
+                <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-black group-hover:w-full transition-all duration-300"></span>
+              </NavLink>
+
+              <NavLink
+                to="/add-property"
+                className={({ isActive }) =>
+                  `flex items-center gap-2 relative hover:text-black transition ${isActive ? "text-black" : ""
+                  } group`
+                }
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={1.8}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+                </svg>
+                Add Property
+                <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-black group-hover:w-full transition-all duration-300"></span>
+              </NavLink>
+            </>
+          )}
+
+          {/* TENANT OPTIONS */}
+          {user?.role === "tenant" && (
             <NavLink
-              to="/add-property"
+              to="/saved-properties"
               className={({ isActive }) =>
                 `flex items-center gap-2 relative hover:text-black transition ${isActive ? "text-black" : ""
                 } group`
               }
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-5 h-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={1.8}
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
               </svg>
-              Add Property
+              Saved
               <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-black group-hover:w-full transition-all duration-300"></span>
             </NavLink>
           )}
@@ -174,12 +183,20 @@ export default function Navbar() {
         {/* AUTH BUTTONS */}
         <div className="flex items-center gap-3">
           {isLoggedIn ? (
-            <button
-              onClick={handleLogout}
-              className="px-5 py-2 bg-black text-white rounded-xl hover:bg-gray-900 transition shadow-sm"
-            >
-              Logout
-            </button>
+            <>
+              <NavLink
+                to="/profile"
+                className="px-4 py-2 text-gray-700 font-medium hover:text-black transition"
+              >
+                Profile
+              </NavLink>
+              <button
+                onClick={handleLogout}
+                className="px-5 py-2 bg-black text-white rounded-xl hover:bg-gray-900 transition shadow-sm"
+              >
+                Logout
+              </button>
+            </>
           ) : (
             <>
               <NavLink

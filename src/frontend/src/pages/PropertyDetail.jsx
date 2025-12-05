@@ -1,20 +1,23 @@
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import API from "../utils/api";
+import { AuthContext } from "../context/AuthContext";
 import { MapPin, Shield, Home, Maximize, Bath, Building, Info, CheckCircle } from "lucide-react";
 
 export default function PropertyDetail() {
   const { id } = useParams();
+  const { user, token, updateUser } = useContext(AuthContext);
   const [property, setProperty] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [isSaved, setIsSaved] = useState(false);
 
   const [discussions, setDiscussions] = useState([]);
   const [loadingDiscussions, setLoadingDiscussions] = useState(false);
+  const [showBookingModal, setShowBookingModal] = useState(false);
 
   // Fetch discussions when property loads
   useEffect(() => {
     if (property) {
-      const society = property.dynamic_facts?.["Society"] !== "N/A" ? property.dynamic_facts?.["Society"] : null;
       const title = property.title;
       const query = `${title} Greater Noida`;
 
@@ -28,7 +31,7 @@ export default function PropertyDetail() {
     }
   }, [property]);
 
-  // ✅ Fetch property by ID (from backend)
+  // Fetch property by ID (from backend)
   useEffect(() => {
     const fetchProperty = async () => {
       try {
@@ -43,6 +46,30 @@ export default function PropertyDetail() {
     };
     fetchProperty();
   }, [id]);
+
+  // Check if property is saved
+  useEffect(() => {
+    if (user && user.savedProperties) {
+      setIsSaved(user.savedProperties.includes(id));
+    }
+  }, [user, id]);
+
+  const handleSave = async () => {
+    if (!token) {
+      alert("Please login to save properties");
+      return;
+    }
+    try {
+      const res = await API.put(`/auth/save/${id}`);
+      if (res.status === 200) {
+        setIsSaved(!isSaved);
+        // Update user context with new saved list
+        updateUser({ ...user, savedProperties: res.data.savedProperties });
+      }
+    } catch (error) {
+      console.error("Error saving property:", error);
+    }
+  };
 
   if (loading)
     return (
@@ -76,7 +103,7 @@ export default function PropertyDetail() {
 
   const displayImage = images && images.length > 0
     ? (images[0].startsWith("http") ? images[0] : `http://localhost:5000${images[0]}`)
-    : "https://via.placeholder.com/800x500?text=No+Image";
+    : "https://placehold.co/800x500?text=No+Image";
 
   const formatPrice = (price) => {
     if (!price) return "Price on Request";
@@ -88,8 +115,6 @@ export default function PropertyDetail() {
   const society = dynamic_facts?.["Society"] !== "N/A" ? dynamic_facts?.["Society"] : null;
   const propType = dynamic_facts?.["Property Type"] || "Apartment";
   const bathrooms = dynamic_facts?.["Bathrooms"];
-
-
 
   return (
     <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-12 animate-fadeIn">
@@ -380,16 +405,390 @@ export default function PropertyDetail() {
               <p className="text-sm text-gray-400 mt-3">Based on AI analysis of crime data and locality safety.</p>
             </div>
 
-
-
             {/* Contact / Action Button */}
-            <button className="w-full bg-black text-white py-5 rounded-2xl font-bold text-xl hover:bg-gray-800 transition shadow-lg transform hover:-translate-y-1">
-              Contact Owner / Agent
-            </button>
+            <div className="space-y-4">
+              {property.status === "booked" ? (
+                <button
+                  disabled
+                  className="w-full bg-gray-300 text-gray-500 py-4 rounded-2xl font-bold text-lg cursor-not-allowed"
+                >
+                  Property Booked
+                </button>
+              ) : (
+                <button
+                  onClick={() => setShowBookingModal(true)}
+                  className="w-full bg-black text-white py-4 rounded-2xl font-bold text-lg hover:bg-gray-800 transition shadow-lg transform hover:-translate-y-1"
+                >
+                  Book Now
+                </button>
+              )}
+
+              {user?.role === "tenant" && (
+                <button
+                  onClick={handleSave}
+                  className={`w-full py-4 rounded-2xl font-bold text-lg border-2 transition shadow-sm flex items-center justify-center gap-2 ${isSaved
+                    ? "bg-red-50 border-red-200 text-red-600 hover:bg-red-100"
+                    : "bg-white border-gray-200 text-gray-700 hover:bg-gray-50"
+                    }`}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className={`w-6 h-6 ${isSaved ? "fill-current" : "none"}`}
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                  {isSaved ? "Saved" : "Save Property"}
+                </button>
+              )}
+            </div>
           </div>
 
         </div>
       </div>
-    </div >
+      {/* Booking Modal */}
+      {showBookingModal && (
+        <BookingModal
+          property={property}
+          onClose={() => setShowBookingModal(false)}
+          user={user}
+        />
+      )}
+    </div>
+  );
+}
+
+function BookingModal({ property, onClose, user }) {
+  const [step, setStep] = useState(1);
+
+  // Defect Analysis State
+  const [defectFiles, setDefectFiles] = useState([]);
+  const [defectPreviews, setDefectPreviews] = useState([]);
+  const [defectResult, setDefectResult] = useState(null);
+  const [analyzingDefect, setAnalyzingDefect] = useState(false);
+
+  // Agreement Analysis State
+  const [agreementFile, setAgreementFile] = useState(null);
+  const [agreementResult, setAgreementResult] = useState(null);
+  const [analyzingAgreement, setAnalyzingAgreement] = useState(false);
+
+  const [bookingLoading, setBookingLoading] = useState(false);
+
+
+  const handleDefectFileChange = (e) => {
+    const files = Array.from(e.target.files);
+    if (files.length > 0) {
+      setDefectFiles(files);
+      const previews = files.map(file => URL.createObjectURL(file));
+      setDefectPreviews(previews);
+      setDefectResult(null);
+    }
+  };
+
+  const handleAgreementFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      setAgreementFile(file);
+      setAgreementResult(null);
+    }
+  };
+
+  const analyzeDefect = async () => {
+    if (defectFiles.length === 0) return;
+    setAnalyzingDefect(true);
+    const formData = new FormData();
+    defectFiles.forEach(file => {
+      formData.append("images", file);
+    });
+
+    try {
+      const res = await API.post("/defects/analyze", formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      setDefectResult(res.data);
+    } catch (err) {
+      console.error("Defect analysis failed", err);
+      alert("Analysis failed. Please try again.");
+    } finally {
+      setAnalyzingDefect(false);
+    }
+  };
+
+  const analyzeAgreement = async () => {
+    if (!agreementFile) return;
+    setAnalyzingAgreement(true);
+    const formData = new FormData();
+    formData.append("agreement", agreementFile);
+
+    try {
+      const res = await API.post("/agreements/analyze", formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      setAgreementResult(res.data);
+    } catch (err) {
+      console.error("Agreement analysis failed", err);
+      alert("Analysis failed. Please try again.");
+    } finally {
+      setAnalyzingAgreement(false);
+    }
+  };
+
+  const handleConfirmBooking = async () => {
+    setBookingLoading(true);
+    try {
+      // Extract image URLs from defectResult if available
+      const proofImages = defectResult && defectResult.results
+        ? defectResult.results.map(r => r.image_url)
+        : ["https://placehold.co/150?text=No+Image"];
+
+      await API.post("/bookings", {
+        propertyId: property._id,
+        proofImage: proofImages,
+        defectAnalysis: defectResult,
+        agreementAnalysis: agreementResult ? agreementResult.analysis : null
+      });
+
+
+      setStep(5);
+    } catch (err) {
+      console.error("Booking failed", err);
+      alert("Booking failed. Please try again.");
+    } finally {
+      setBookingLoading(false);
+    }
+  };
+
+  return (
+    <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+      <div className="bg-white rounded-3xl shadow-2xl max-w-lg w-full overflow-hidden animate-fadeIn max-h-[90vh] overflow-y-auto">
+
+        {/* Header */}
+        <div className="bg-gray-50 px-6 py-4 border-b flex justify-between items-center sticky top-0 z-10">
+          <h3 className="font-bold text-lg">Book Property</h3>
+          <button onClick={onClose} className="text-gray-400 hover:text-black">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Body */}
+        <div className="p-6">
+          {/* Progress Bar */}
+          <div className="flex justify-between mb-8 relative">
+            <div className="absolute top-1/2 left-0 w-full h-1 bg-gray-200 -z-10"></div>
+            {[1, 2, 3, 4, 5].map((s) => (
+              <div key={s} className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold transition-colors ${step >= s ? "bg-black text-white" : "bg-gray-200 text-gray-500"}`}>
+                {s}
+              </div>
+            ))}
+          </div>
+
+          {/* STEP 1: Confirm Details */}
+          {step === 1 && (
+            <div className="space-y-4">
+              <h4 className="text-xl font-bold">Confirm Details</h4>
+              <div className="bg-gray-50 p-4 rounded-xl space-y-2">
+                <p className="text-sm text-gray-500">Property</p>
+                <p className="font-medium">{property.title}</p>
+                <p className="text-sm text-gray-500 mt-2">Price</p>
+                <p className="font-bold text-lg">₹{property.price.toLocaleString()}</p>
+              </div>
+              <p className="text-sm text-gray-600">
+                The booking process involves two AI verification steps:
+                <br />1. <b>Defect Detection</b> (Condition Proof)
+                <br />2. <b>Agreement Analysis</b> (Rental Contract)
+              </p>
+              <button onClick={() => setStep(2)} className="w-full bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition">
+                Start Process
+              </button>
+            </div>
+          )}
+
+          {/* STEP 2: Defect Detection */}
+          {step === 2 && (
+            <div className="space-y-6">
+              <h4 className="text-xl font-bold">1. Defect Detection</h4>
+              <p className="text-sm text-gray-600">Upload an image of the property's current condition.</p>
+
+              <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:bg-gray-50 transition cursor-pointer relative">
+                <input type="file" accept="image/*" multiple onChange={handleDefectFileChange} className="absolute inset-0 opacity-0 cursor-pointer" />
+                {defectPreviews.length > 0 ? (
+                  <div className="grid grid-cols-3 gap-2">
+                    {defectPreviews.map((src, idx) => {
+                      const resultItem = defectResult?.results?.[idx];
+                      const analysis = resultItem?.analysis;
+                      return (
+                        <div key={idx} className="relative group">
+                          <img src={src} alt={`Preview ${idx}`} className="h-24 w-full object-cover rounded-lg border border-gray-200" />
+                          {analysis && (
+                            <div className={`absolute bottom-0 left-0 right-0 p-1 text-[10px] uppercase tracking-wide font-bold text-white text-center rounded-b-lg backdrop-blur-md z-10 ${analysis.defect_detected ? "bg-red-600/90" : "bg-green-600/90"}`}>
+                              {analysis.defect_detected ? analysis.defect_type : "Normal"}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <div className="text-gray-400">
+                    <div className="mx-auto h-12 w-12 mb-2">📷</div>
+                    <p>Upload Condition Images (Select Multiple)</p>
+                  </div>
+                )}
+              </div>
+
+              {defectResult ? (
+                <div className={`p-4 rounded-xl border ${defectResult.summary.defect_detected ? "bg-red-50 border-red-200" : "bg-green-50 border-green-200"}`}>
+                  <div className="flex items-center gap-2 mb-1">
+                    {defectResult.summary.defect_detected ? "⚠️ Defects Detected" : "✅ No Defects Found"}
+                  </div>
+                  {defectResult.summary.defect_detected && (
+                    <p className="text-sm capitalize font-medium">
+                      Types: {defectResult.summary.defect_types.join(", ")}
+                    </p>
+                  )}
+                  <p className="text-xs text-gray-500 mt-1">Analyzed {defectResult.summary.total_images} images</p>
+                </div>
+              ) : (
+                <button
+                  onClick={analyzeDefect}
+                  disabled={defectFiles.length === 0 || analyzingDefect}
+                  className="w-full bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition disabled:opacity-50"
+                >
+                  {analyzingDefect ? "Analyzing..." : "Analyze Image"}
+                </button>
+              )}
+
+              {defectResult && (
+                <button onClick={() => setStep(3)} className="w-full bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition">
+                  Next Step
+                </button>
+              )}
+
+              <button onClick={() => setStep(3)} className="w-full text-gray-500 text-sm hover:underline">
+                Skip this step
+              </button>
+            </div>
+          )}
+
+          {/* STEP 3: Agreement Analysis */}
+          {step === 3 && (
+            <div className="space-y-6">
+              <h4 className="text-xl font-bold">2. Agreement Analysis</h4>
+              <p className="text-sm text-gray-600">Upload the rental agreement (PDF/Image) for risk analysis.</p>
+
+              <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:bg-gray-50 transition cursor-pointer relative">
+                <input type="file" accept=".pdf,image/*" onChange={handleAgreementFileChange} className="absolute inset-0 opacity-0 cursor-pointer" />
+                {agreementFile ? (
+                  <div className="text-gray-600 font-medium flex flex-col items-center">
+                    <span className="text-4xl mb-2">📄</span>
+                    {agreementFile.name}
+                  </div>
+                ) : (
+                  <div className="text-gray-400">
+                    <div className="mx-auto h-12 w-12 mb-2">📄</div>
+                    <p>Upload Agreement</p>
+                  </div>
+                )}
+              </div>
+
+              {agreementResult && agreementResult.analysis ? (
+                <div className="p-4 rounded-xl border bg-blue-50 border-blue-200">
+                  <p className="font-bold text-blue-700">Risk Score: {agreementResult.analysis.risk_score}/10</p>
+                  <p className="text-xs text-gray-600 mt-1 line-clamp-2">{agreementResult.analysis.summary}</p>
+                  {agreementResult.analysis.unfair_clauses && agreementResult.analysis.unfair_clauses.length > 0 && (
+                    <div className="mt-2">
+                      <p className="text-xs font-bold text-red-600">Unfair Clauses:</p>
+                      <ul className="list-disc list-inside text-xs text-red-500">
+                        {agreementResult.analysis.unfair_clauses.slice(0, 2).map((clause, i) => (
+                          <li key={i}>{clause}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <button
+                  onClick={analyzeAgreement}
+                  disabled={!agreementFile || analyzingAgreement}
+                  className="w-full bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition disabled:opacity-50"
+                >
+                  {analyzingAgreement ? "Analyzing..." : "Analyze Agreement"}
+                </button>
+              )}
+
+              {agreementResult && (
+                <button onClick={() => setStep(4)} className="w-full bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition">
+                  Next Step
+                </button>
+              )}
+
+              <button onClick={() => setStep(4)} className="w-full text-gray-500 text-sm hover:underline">
+                Skip this step
+              </button>
+            </div>
+          )}
+
+          {/* STEP 4: Final Review */}
+          {step === 4 && (
+            <div className="space-y-4">
+              <h4 className="text-xl font-bold">Review & Confirm</h4>
+
+              <div className="space-y-3">
+                <div className="p-3 bg-gray-50 rounded-lg border">
+                  <span className="text-xs font-bold text-gray-500 uppercase">Defect Analysis</span>
+                  {defectResult ? (
+                    <div className={defectResult.summary.defect_detected ? "text-red-600 font-bold" : "text-green-600 font-bold"}>
+                      {defectResult.summary.defect_detected ? `⚠️ ${defectResult.summary.defect_types.join(", ")}` : "✅ No Defects"}
+                    </div>
+                  ) : (
+                    <div className="text-gray-400 text-sm">Skipped</div>
+                  )}
+                </div>
+
+                <div className="p-3 bg-gray-50 rounded-lg border">
+                  <span className="text-xs font-bold text-gray-500 uppercase">Agreement Analysis</span>
+                  {agreementResult && agreementResult.analysis ? (
+                    <div className="text-blue-600 font-bold">
+                      Risk Score: {agreementResult.analysis.risk_score}/10
+                    </div>
+                  ) : (
+                    <div className="text-gray-400 text-sm">Skipped</div>
+                  )}
+                </div>
+              </div>
+
+              <button
+                onClick={handleConfirmBooking}
+                disabled={bookingLoading}
+                className="w-full bg-black text-white py-3 rounded-xl font-bold hover:bg-gray-800 transition disabled:opacity-50"
+              >
+                {bookingLoading ? "Confirming..." : "Confirm Booking"}
+              </button>
+            </div>
+          )}
+
+          {/* STEP 5: Success */}
+          {step === 5 && (
+            <div className="text-center py-8">
+              <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <h4 className="text-2xl font-bold mb-2">Booking Confirmed!</h4>
+              <p className="text-gray-500 mb-6">Your booking request has been sent to the owner along with the analysis reports.</p>
+              <button onClick={onClose} className="w-full bg-gray-100 text-gray-900 py-3 rounded-xl font-bold hover:bg-gray-200 transition">
+                Close
+              </button>
+            </div>
+          )}
+
+        </div>
+      </div>
+    </div>
   );
 }

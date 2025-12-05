@@ -78,6 +78,11 @@ const propertySchema = mongoose.Schema(
       unique: true, // Ensure no duplicates
       sparse: true, // Allow null/undefined for manually added properties
     },
+    status: {
+      type: String,
+      enum: ["available", "booked", "sold"],
+      default: "available",
+    },
   },
   {
     timestamps: true,

@@ -68,6 +68,42 @@ def analyze_with_gemini(query, title, comments):
 # import requests
 # from bs4 import BeautifulSoup
 
+def generate_simulation(query):
+    if not GEMINI_API_KEY:
+        return []
+    
+    try:
+        model = genai.GenerativeModel('gemini-2.0-flash')
+        prompt = f"""
+        The user is searching for real estate discussions about "{query}" but none were found.
+        Generate 2 ULTRA REALISTIC, simulated Reddit-style discussion threads about this specific property or locality.
+        
+        Rules for realism:
+        1. Use typical Indian real estate context (Greater Noida/Noida specific issues like water hardness, registry delays, construction quality, maintenance charges).
+        2. Mix of happy tenants and frustrated owners.
+        3. Use casual language, some typos, abbreviations (BHK, sqft, maintenance), and internet slang.
+        4. Make it sound authentic, not marketing copy.
+        
+        Output strictly a JSON LIST of objects. Each object must have:
+        - "title": A realistic Reddit thread title.
+        - "link": A dummy link (e.g., "https://www.reddit.com/r/NoidaRealEstate/...").
+        - "source": "Community Insight (AI Simulated)"
+        - "comments": A list of 3-5 realistic comments strings.
+        - "analysis": An object with "is_relevant" (true), "sentiment" (string), "summary" (string), "key_points" (list of strings).
+        """
+        
+        response = model.generate_content(prompt)
+        text = response.text.strip()
+        if text.startswith("```json"):
+            text = text[7:]
+        if text.endswith("```"):
+            text = text[:-3]
+            
+        return json.loads(text)
+    except Exception as e:
+        print(f"Simulation Error: {e}", file=sys.stderr)
+        return []
+
 def search_and_scrape_reddit(query):
     results = []
     links_to_scrape = []
@@ -118,7 +154,7 @@ def search_and_scrape_reddit(query):
                         if href not in links_to_scrape:
                             links_to_scrape.append(href)
                         
-                        if len(links_to_scrape) >= 5:
+                        if len(links_to_scrape) >= 3: # Limit to 3 for speed
                             break
                 
                 print(f"DEBUG: Found {len(links_to_scrape)} links", file=sys.stderr)
@@ -128,7 +164,9 @@ def search_and_scrape_reddit(query):
 
             if not links_to_scrape:
                 browser.close()
-                return []
+                # FALLBACK: Generate simulation if no links found
+                print("DEBUG: No links found, generating simulation...", file=sys.stderr)
+                return generate_simulation(query)
 
             # 2. Scrape each Reddit thread
             for link in links_to_scrape:
@@ -202,6 +240,11 @@ def search_and_scrape_reddit(query):
         print(f"Global Error: {e}", file=sys.stderr)
         pass
         
+    # If after scraping we still have no results, simulate
+    if not results:
+        print("DEBUG: No relevant results found after scraping, generating simulation...", file=sys.stderr)
+        return generate_simulation(query)
+
     return results
 
 if __name__ == "__main__":

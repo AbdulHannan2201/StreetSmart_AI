@@ -19,7 +19,7 @@ export default function PropertyCard({ property }) {
 
   const displayImage = images && images.length > 0
     ? (images[0].startsWith("http") ? images[0] : `http://localhost:5000${images[0]}`)
-    : "https://via.placeholder.com/400x300?text=No+Image";
+    : "https://placehold.co/400x300?text=No+Image";
 
   const formatPrice = (price) => {
     if (!price) return "Price on Request";
@@ -48,6 +48,14 @@ export default function PropertyCard({ property }) {
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
             <p className="text-white font-bold text-xl">{formatPrice(price)}</p>
           </div>
+
+          {property.status === "booked" && (
+            <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px] flex items-center justify-center z-10">
+              <span className="bg-red-600 text-white px-4 py-2 rounded-lg font-bold text-lg transform -rotate-12 shadow-lg border-2 border-white">
+                BOOKED
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Content */}
