@@ -1,0 +1,15 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+       algae       0.21      0.26      0.23       400
+ major_crack       0.12      0.28      0.17       400
+ minor_crack       0.14      0.14      0.14       400
+     peeling       0.24      0.20      0.22       400
+       plain       0.02      0.01      0.01       400
+    spalling       0.14      0.13      0.14       400
+       stain       0.12      0.01      0.02       400
+
+    accuracy                           0.15      2800
+   macro avg       0.14      0.15      0.13      2800
+weighted avg       0.14      0.15      0.13      2800
+
